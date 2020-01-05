@@ -11,11 +11,11 @@
 
 ![sql injection + file inclusion](../.gitbook/assets/image%20%2816%29.png)
 
-* SQL file upload.
+* [SQL file upload.](7.2-file-inclusion-vulnerabilities.md#7-2-3-lfi-enable-and-rfi-disabled-approach-1)
 
 ![sql file upload](../.gitbook/assets/image%20%282%29.png)
 
-* apache file upload 
+* [apache file upload ](7.2-file-inclusion-vulnerabilities.md#7-2-4-lfi-enabled-and-rfi-disabled-approach-2)
 
 
 
