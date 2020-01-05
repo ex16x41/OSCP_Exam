@@ -2,7 +2,7 @@
 
 Given we have hash dump stored in `hashes.txt`
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 * John the ripper has pattern matching feature which could identify generic hashes only. Automatically.
 
@@ -13,7 +13,7 @@ Given we have hash dump stored in `hashes.txt`
 * To do this, we could use john.conf to do it efficiently.
 * We just need to and an extra rule.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 

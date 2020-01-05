@@ -9,7 +9,7 @@
 
 ### Tools\(in Kali\) where we could use this techniques are:
 
-![pth means passing the hash](../.gitbook/assets/image%20%2827%29.png)
+![pth means passing the hash](../.gitbook/assets/image%20%2830%29.png)
 
 
 
