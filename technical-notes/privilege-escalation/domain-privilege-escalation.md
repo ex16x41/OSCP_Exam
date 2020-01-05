@@ -9,7 +9,7 @@ After Local level privilege escalation we get `NT AUTHORITY\SYSTEM` authorizatio
 
 After Domain level privilege escalation we get`MYDOMAIN\mike` authorization. It could be such that john has authorization to more than one machine.
 
-![local account vs domain account](../../.gitbook/assets/image%20%284%29.png)
+![local account vs domain account](../../.gitbook/assets/image%20%285%29.png)
 
 ## A hypothetical scenario
 
