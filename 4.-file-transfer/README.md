@@ -32,9 +32,9 @@ Link : [https://www.hackingarticles.in/compressive-guide-on-file-transfer-post-e
   * But if user sends malicious code script. As it is an invalid request the script will not be executed, but still the complete script message is present in web server log files.
   * So if the website is vulnerable to LFI vulnerability, we could give path of web-server log files in this, and in this way our malicious code will be executed.
 
-![Interactive Shell](../.gitbook/assets/image%20%2841%29.png)
+![Interactive Shell](../.gitbook/assets/image%20%2842%29.png)
 
-![Non-Interactive Shell](../.gitbook/assets/image%20%2839%29.png)
+![Non-Interactive Shell](../.gitbook/assets/image%20%2840%29.png)
 
 ## List of different ways for transferring a file
 
