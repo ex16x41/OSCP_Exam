@@ -114,6 +114,7 @@
   * [Metasploit Reverse Shells](technical-notes/reverse-shell/metasploit-reverse-shells.md)
 * [Working of session](technical-notes/working-of-session.md)
 * [Compiling C/C++ code](technical-notes/compiling-c-c++-code.md)
+* [Encoding and standard I/O](technical-notes/encoding-and-standard-i-o.md)
 * [Kali linux](technical-notes/kali-linux.md)
 * [3. LDAP](technical-notes/3.-ldap.md)
 * [5. msfvenom](technical-notes/5.-msfvenom.md)
