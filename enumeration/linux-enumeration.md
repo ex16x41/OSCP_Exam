@@ -7,7 +7,9 @@
 
 ### 1\) To check if a service is installed or not
 
-* whereis
+* whereis nc
+* rpm -qa
+* dpkg -l
 
 ![whereis](../.gitbook/assets/image%20%2841%29.png)
 
