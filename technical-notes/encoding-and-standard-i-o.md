@@ -4,6 +4,7 @@
 
 * Help commands \(Like : _**`nc -h`**_\)
 * Check if standard error is shown or not. \( `>/dev/null` \)
+* Error redirection \( `2>&1`\)
 
 ## Standard input
 
