@@ -2,7 +2,8 @@
 
 ## Standard Error
 
-* Help commands \(Like : _**nc -h**_\)
+* Help commands \(Like : _**`nc -h`**_\)
+* Check if standard error is shown or not. \( `>/dev/null` \)
 
 ## Standard input
 
