@@ -10,6 +10,12 @@
 * whereis nc
 * rpm -qa
 * dpkg -l
+* File locations
+  *  **/usr/src/**
+  *  **/usr/local/src**
+  *  **/opt/**
+  *  **/var/**
+* \*\*\*\*
 
 ![whereis](../.gitbook/assets/image%20%2841%29.png)
 
