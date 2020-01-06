@@ -49,6 +49,7 @@
 ## Vulnerability Assessment
 
 * [4. Vulnerability Assessment](vulnerability-assessment/4.-vulnerability-assessment/README.md)
+  * [Point of Vulnerability Analysis](vulnerability-assessment/4.-vulnerability-assessment/point-of-vulnerability-analysis.md)
   * [Searching for exploits](vulnerability-assessment/4.-vulnerability-assessment/5.-searching-for-exploits.md)
   * [Nmap](vulnerability-assessment/4.-vulnerability-assessment/nmap.md)
   * [Nikto](vulnerability-assessment/4.-vulnerability-assessment/nikto.md)
