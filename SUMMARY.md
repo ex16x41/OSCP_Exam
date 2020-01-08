@@ -111,6 +111,7 @@
     * [Example](technical-notes/7.-metasploit-framework/meterpreter-shell/example.md)
 * [Reverse Shell](technical-notes/reverse-shell/README.md)
   * [One-liner Reverse Shell](technical-notes/reverse-shell/one-liner-reverse-shell.md)
+  * [TTY session](technical-notes/reverse-shell/tty-session.md)
   * [Metasploit Reverse Shells](technical-notes/reverse-shell/metasploit-reverse-shells.md)
 * [Working of session](technical-notes/working-of-session.md)
 * [Compiling C/C++ code](technical-notes/compiling-c-c++-code.md)
