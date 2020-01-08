@@ -1,11 +1,5 @@
 # One-liner Reverse Shell
 
-## Necessary Steps After reverse shell
-
-* We need to get tty shell first.
-  * `python -c 'import pty; pty.spawn("/bin/bash");'`
-  * d
-
 ## How to solve the problem of multiple quotes in a single command while designing a payload?
 
 * 
