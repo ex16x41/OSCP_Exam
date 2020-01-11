@@ -10,3 +10,11 @@ Tools such as nmap, nbtscan, etc. could be used for enumeration of NetBIOS servi
 
 ![](../../../../../.gitbook/assets/image-4.png)
 
+
+
+### NetBIOS provides three distinct services:
+
+1. Name service \(NetBIOS-NS\) for name registration and resolution via port **137**.
+2. Datagram distribution service \(NetBIOS-DGM\) for connection less communication via port **138**.
+3. Session service \(NetBIOS-SSN\) for connection-oriented communication via port **139**. ****
+
