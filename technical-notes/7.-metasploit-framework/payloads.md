@@ -5,9 +5,9 @@
 3. 
 ## msfconsole important commands
 
-* `use exoloit`_`/*/*`_
+* `use exoloit/*/*`
 * `show options`
-* `set rhost` _`*`_
+* `set rhost *`
 * `set payload windows/shell/reverse_tcp`
 * `show targets` : To display which OS versions are vulnerable to this exploit.
 
