@@ -61,3 +61,7 @@ except:
 
 ```
 
+### 2\) Carriage return
+
+`'\r\n'` : Equivalent to "enter" of keyboard.
+
