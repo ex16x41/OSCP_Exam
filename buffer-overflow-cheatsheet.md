@@ -44,4 +44,5 @@ RET
 
 ## Finding ROP in linux
 
-* 
+* \(Refer linux exploit development\)
+
