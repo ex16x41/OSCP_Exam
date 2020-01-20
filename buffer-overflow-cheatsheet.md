@@ -40,4 +40,8 @@ POP ESP
 RET
 ```
 
+* "ctrl + l" to find the next search result.
+
+## Finding ROP in linux
+
 * 
