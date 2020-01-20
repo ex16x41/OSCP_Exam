@@ -1,6 +1,6 @@
 # Python notes
 
-### New socket connection
+### 1\) New socket connection
 
 ```text
 #!/usr/bin/python
