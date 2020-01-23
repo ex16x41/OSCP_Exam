@@ -121,5 +121,15 @@ RET
 ![list of modules](.gitbook/assets/image%20%286%29.png)
 
 * We selected the brainpan.exe executable as all of the security protections are disabled.
-* Our task now is to statically find ROP gadgets. We now can use "Finding ROP in linux 1" approach for this mentioned above.
+* Our task now is to statically find ROP gadgets. We now can use "[Finding ROP in linux 1](buffer-overflow-cheatsheet.md#finding-rop-in-linux-1)" approach for this mentioned above.
+
+### Could the same exploit on windows x86 be used in linux x86 without modifying a single information?
+
+* Yes but we need some Requirements for this:
+  * Run `!mona modules` We need essential memory protection mechanisms disabled on the vulnerable `.exe` file
+  * There should be ROP gadgets in the `.exe` file.
+  * We need to run the same `.exe` file on the x86 linux machine.
+* The only issue with such kind of exploit are the "**hardcoded addresses**".
+* If we use ROP gadget method "JMP ESP" for buffer overflow, we have only one hardcoded address, that is of the address of the ROP gadget.
+* If we met all the requirements mentioned above. Then the ROP gadget address will not change irrespective of the underlying OS, as it is present inside the `.exe` file itself. 
 
