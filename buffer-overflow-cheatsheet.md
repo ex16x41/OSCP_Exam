@@ -99,9 +99,16 @@ RET
 
 * "ctrl + l" to find the next search result.
 
-### Finding ROP in linux
+### Finding ROP in linux 1
 
-* \(Refer linux exploit development\)
+* Download the [ROPgadget](https://github.com/JonathanSalwan/ROPgadget) script.
+* Using ROPgadget find the ROP gadgets on the vulnerable .exe file.
+
+![](.gitbook/assets/image%20%2845%29.png)
+
+### Finding ROP in linux 2
+
+* d
 
 ### Finding ROP gadgets in immunity debugger
 
