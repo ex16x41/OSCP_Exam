@@ -92,7 +92,7 @@ rop_addr = '\x25\x27\x21\x77'        #77212725
 payload = buf + junk + rop_addr
 ```
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 * Right click on the command box -&gt; Search for -&gt; Sequence of commands
 
@@ -110,7 +110,7 @@ RET
 * Download the [ROPgadget](https://github.com/JonathanSalwan/ROPgadget) script.
 * Using ROPgadget find the ROP gadgets on the vulnerable .exe file.
 
-![](.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 ### Finding ROP in linux 2
 
@@ -123,10 +123,10 @@ RET
 * `!mona modules`
 * Then we need to decide which modules to use. We use that modules that have most of the necessary protection mechanisms disabled. Like "ASLR", "DEP", "NX" ,etc.
 
-![list of modules](.gitbook/assets/image%20%286%29.png)
+![list of modules](../.gitbook/assets/image%20%286%29.png)
 
 * We selected the brainpan.exe executable as all of the security protections are disabled.
-* Our task now is to statically find ROP gadgets. We now can use "[Finding ROP in linux 1](buffer-overflow-cheatsheet.md#finding-rop-in-linux-1)" approach for this mentioned above.
+* Our task now is to statically find ROP gadgets. We now can use "[Finding ROP in linux 1](./#finding-rop-in-linux-1)" approach for this mentioned above.
 
 ### Could the same exploit on windows x86 be used in linux x86 without modifying a single information?
 

@@ -135,5 +135,6 @@
   * [8.4 Nmap API](technical-notes/8.-nmap-theory/8.4-nmap-api.md)
 * [UAC and process migration](uac-and-process-migration.md)
 * [Python notes](python-notes.md)
-* [Buffer Overflow cheatsheet](buffer-overflow-cheatsheet.md)
+* [Buffer Overflow cheatsheet](buffer-overflow-cheatsheet/README.md)
+  * [Need of NOPs in BO](buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
 
