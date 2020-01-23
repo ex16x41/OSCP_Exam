@@ -8,5 +8,5 @@
 
 ## Banner Grabbing of Ports :
 
-![](../../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../../.gitbook/assets/image%20%2835%29.png)
 
