@@ -1,12 +1,17 @@
 # Wordpress Brute Forcing
 
-## Step 1 : First step is to enumerate users
+## Step 1 : Enumerate users
 
 * Default username "admin".
 * If not then use an intelligent userlist using "cewl" or common usernames using seclists. To enumerate valid usernames.
 * Verify the enumerate usernames
 
-## Step 2 : Perform the online password cracking
+## Step 2 : Password list
+
+* First try to find a webpage to get a more probable list of password using "cewl".
+* If not found then use common password lists from "seclists".
+
+## Step 3 : Perform the online password cracking
 
 ### Nmap : Wordpress login brute force
 
