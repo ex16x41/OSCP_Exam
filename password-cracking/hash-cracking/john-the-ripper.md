@@ -2,7 +2,7 @@
 
 Given we have hash dump stored in `hashes.txt`
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 * John the ripper has pattern matching feature which could identify generic hashes only. Automatically.
 

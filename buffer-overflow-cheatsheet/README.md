@@ -92,7 +92,7 @@ rop_addr = '\x25\x27\x21\x77'        #77212725
 payload = buf + junk + rop_addr
 ```
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 * Right click on the command box -&gt; Search for -&gt; Sequence of commands
 
@@ -110,7 +110,7 @@ RET
 * Download the [ROPgadget](https://github.com/JonathanSalwan/ROPgadget) script.
 * Using ROPgadget find the ROP gadgets on the vulnerable .exe file.
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 ### Finding ROP in linux 2
 

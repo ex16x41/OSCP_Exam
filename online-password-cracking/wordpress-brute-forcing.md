@@ -8,7 +8,7 @@
 
 ![&quot;elliot&quot; is a valid username](../.gitbook/assets/image%20%2819%29.png)
 
-![&quot;admin&quot; is not a valid username](../.gitbook/assets/image%20%2843%29.png)
+![&quot;admin&quot; is not a valid username](../.gitbook/assets/image%20%2844%29.png)
 
 ## Step 2 : Password list
 
