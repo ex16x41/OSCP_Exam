@@ -2,7 +2,7 @@
 
 ref : [http://adaywithtape.blogspot.com/2011/05/creating-wordlists-with-crunch-v30.html](http://adaywithtape.blogspot.com/2011/05/creating-wordlists-with-crunch-v30.html)
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 ### To know the length of the password list
 
