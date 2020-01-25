@@ -7,7 +7,7 @@
 * inrul
 * intitle
 
-![both are a part of intitle search](../../.gitbook/assets/image%20%2821%29.png)
+![both are a part of intitle search](../../.gitbook/assets/image%20%2823%29.png)
 
 
 

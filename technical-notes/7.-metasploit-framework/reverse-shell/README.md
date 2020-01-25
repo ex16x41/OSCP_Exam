@@ -52,5 +52,5 @@
 
 
 
-![TCP connection states](../../../.gitbook/assets/image%20%2826%29.png)
+![TCP connection states](../../../.gitbook/assets/image%20%2828%29.png)
 

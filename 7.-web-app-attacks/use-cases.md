@@ -5,11 +5,11 @@
 
 ![sql injection example 1](../.gitbook/assets/image%20%287%29.png)
 
-![sql injection example 2](../.gitbook/assets/image%20%2819%29.png)
+![sql injection example 2](../.gitbook/assets/image%20%2821%29.png)
 
 * SQL injection and File inclusion
 
-![sql injection + file inclusion](../.gitbook/assets/image%20%2818%29.png)
+![sql injection + file inclusion](../.gitbook/assets/image%20%2820%29.png)
 
 * [SQL file upload.](7.2-file-inclusion-vulnerabilities.md#7-2-3-lfi-enable-and-rfi-disabled-approach-1)
 

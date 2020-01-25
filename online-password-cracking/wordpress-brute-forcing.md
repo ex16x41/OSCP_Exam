@@ -6,6 +6,10 @@
 * If not then use an intelligent userlist using "cewl" or common usernames using seclists. To enumerate valid usernames.
 * Verify the enumerate usernames
 
+![&quot;elliot&quot; is a valid username](../.gitbook/assets/image%20%2819%29.png)
+
+![&quot;admin&quot; is not a valid username](../.gitbook/assets/image%20%2843%29.png)
+
 ## Step 2 : Password list
 
 * First try to find a webpage to get a more probable list of password using "cewl".
