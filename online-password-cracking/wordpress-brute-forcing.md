@@ -27,7 +27,7 @@
 
 ### Hydra : Wordpress login brute force
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 ### Brup Suite : Wordpress login Brute force
 
