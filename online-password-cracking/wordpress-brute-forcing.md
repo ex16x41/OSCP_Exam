@@ -1,5 +1,11 @@
 # Wordpress Brute Forcing
 
+## First step is to enumerate users
+
+* Default username "admin".
+* If not then use an intelligent userlist using "cewl" or common usernames using seclists. To enumerate valid usernames.
+* Verify the enumerate usernames
+
 ## Nmap : Wordpress login brute force
 
 * The nmap automatically discovers the exact login page using `nmap -p80 --script http-enum 192.168.1.17`
