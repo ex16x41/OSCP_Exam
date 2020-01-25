@@ -42,4 +42,7 @@ Nmap NSE scripts are written in [LUA](http://www.lua.org/) programming language.
 * Nmap NSE scripts are stored in "/usr/share/nmap/scripts/"
 * We could get details of the NSE script using:
   * nmap --script-help=http-wordpress-users.nse
+  * These details does not give details on the arguments, but there is link present in these details which points for details on arguments.
+
+![](../../../.gitbook/assets/image%20%2844%29.png)
 
