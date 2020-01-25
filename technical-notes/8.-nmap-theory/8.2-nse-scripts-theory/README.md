@@ -4,7 +4,7 @@ description: >-
   advance/custom scan to fulfill our needs.
 ---
 
-# 8.2 NSE scripts - Theory
+# 8.2 NSE scripts
 
 Link : [https://nmap.org/book/nse-usage.html](https://nmap.org/book/nse-usage.html)
 
@@ -36,4 +36,10 @@ Nmap NSE scripts are written in [LUA](http://www.lua.org/) programming language.
   * it is to run a script scan without a port scan, **only host discovery** like a simple ping. 
 * `-sS` option 
   * it is is for TCP SYN \(Stealth\) Scan. SYN scan is relatively unobtrusive and stealthy, since it never completes TCP connections.  It also allows clear, reliable differentiation between `open`, `closed`, and `filtered` states.
+
+## Using Nmap NSE scripts
+
+* Nmap NSE scripts are stored in "/usr/share/nmap/scripts/"
+* We could get details of the NSE script using:
+  * nmap --script-help=http-wordpress-users.nse
 
