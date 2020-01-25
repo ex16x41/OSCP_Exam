@@ -12,6 +12,10 @@
 
 ## WPScan : Wordpress login Brute force
 
+## Metasploit : Wordpress loign Brute force
+
+
+
 
 
 
