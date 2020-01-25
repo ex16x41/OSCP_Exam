@@ -86,6 +86,7 @@
     * [Ncrack](password-cracking/online-password-cracking/ncrack.md)
     * [Hydra](password-cracking/online-password-cracking/hydra.md)
     * [Performance of cracking](password-cracking/online-password-cracking/performance-of-cracking.md)
+    * [Wordpress Brute Forcing](password-cracking/online-password-cracking/wordpress-brute-forcing.md)
 * [7. Web App Attacks](7.-web-app-attacks/README.md)
   * [7.1 Cross Site Scripting \(XSS\)](7.-web-app-attacks/7.1-cross-site-scripting-xss.md)
   * [7.2 File Inclusion Vulnerabilities](7.-web-app-attacks/7.2-file-inclusion-vulnerabilities.md)
