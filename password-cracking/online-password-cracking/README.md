@@ -10,5 +10,4 @@
 1. Choosing your target
 2. Choosing you user list
 3. Choosing your password list
-4. Grep output of incorrect responses to differentiate between a successful login vs unsuccessful one. E.g. "incorrect" "error" used in 3rd parameter in hydra.
 

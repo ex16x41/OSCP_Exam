@@ -1,5 +1,7 @@
 # My OSCP Notes
 
+These notes are only for education purpose.
+
 These are my notes while I was preparing for OSCP exam. These notes are only ment to be for learning purposes. These are very to the point notes, as rest of the materials could be easily searched over the internet.
 
 Please see the below links and follow. These are what helped me to understand deep in technologies.
