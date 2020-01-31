@@ -55,6 +55,7 @@
   * [Nikto](vulnerability-assessment/4.-vulnerability-assessment/nikto.md)
   * [OpenVAS](vulnerability-assessment/4.-vulnerability-assessment/openvas.md)
 * [Enumeration \(Privilege Escalation\)](enumeration/README.md)
+  * [Domain Privilege Escalation](enumeration/domain-privilege-escalation.md)
   * [Windows Enumeration](enumeration/windows-enumeration/README.md)
     * [windows priv escalation](enumeration/windows-enumeration/windows-priv-escalation.md)
     * [Windows Interesting Files](enumeration/windows-enumeration/windows-command-line.md)
@@ -97,11 +98,6 @@
 
 ## Technical Notes
 
-* [Privilege Escalation](technical-notes/privilege-escalation/README.md)
-  * [Domain Privilege Escalation](technical-notes/privilege-escalation/domain-privilege-escalation.md)
-  * [Windows Weak Services](technical-notes/privilege-escalation/windows-weak-services.md)
-  * [Linux Weak Services](technical-notes/privilege-escalation/linux-weak-services.md)
-  * [Windows Privilege Elivation](technical-notes/privilege-escalation/windows-privilege-elivation.md)
 * [AV Evasion](technical-notes/av-evasion/README.md)
   * [Packer and Crypters](technical-notes/av-evasion/packer-and-crypters.md)
 * [7. Metasploit Framework](technical-notes/7.-metasploit-framework/README.md)
