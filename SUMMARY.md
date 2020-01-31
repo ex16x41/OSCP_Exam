@@ -119,7 +119,6 @@
 * [Encoding and standard I/O](technical-notes/encoding-and-standard-i-o.md)
 * [Kali linux](technical-notes/kali-linux.md)
 * [3. LDAP](technical-notes/3.-ldap.md)
-* [5. msfvenom](technical-notes/5.-msfvenom.md)
 * [8. Nmap](technical-notes/8.-nmap-theory/README.md)
   * [8.0 Nmap Traffic Accountability](technical-notes/8.-nmap-theory/8.0-nmap-traffic-accountability.md)
   * [8.1 Understanding Open, Closed and Filtered Ports](technical-notes/8.-nmap-theory/8.1-understanding-open-closed-and-filtered-ports.md)
