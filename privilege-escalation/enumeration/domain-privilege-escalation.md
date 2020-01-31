@@ -3,6 +3,14 @@
 * privilege escalation just means that if you are not supposed to have admin rights and you doing some stuff got admin rights, this is called privilege escalation.
 * In this article we will discuss on authority of admin account
 
+## Privileges in windows
+
+1. Guest
+2. Standard User with UAC restriction
+3. Standard User without UAC
+4. Admin User `Administrator`
+5. System User \(highest privileges\) `NT AUTHORITY\SYSTEM`
+
 ## Local level privilege escalation vs Domain level privilege escalation
 
 After Local level privilege escalation we get `NT AUTHORITY\SYSTEM` authorization. There is no possibility of using this account for other machine access.
