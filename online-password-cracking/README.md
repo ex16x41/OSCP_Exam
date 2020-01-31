@@ -11,9 +11,11 @@ Step 1 : Enumerate and verify all the possible username and verify them.
 
 Step 2 : Find suspicious webpages on which we could run "cewl" tool to get a good and rich password list, instead of just randomly password list.
 
-Step 3 : Create one more copy of the password list in reverse order, this is helpful in CTF, and other penetration testing exams. `tac pass.txt > rev_pass.txt`
+Step 3 : Create one more copy of the password list in reverse order, this is helpful in CTF, and other penetration testing exams. `tac pass.txt > rev_pass.txt.` 
 
-Step 3 :
+Test "pass.txt" first for 5 minutes, if no success then test "rev\_pass.txt" for 5 minutes.
+
+Step 4 :
 
 1. Choosing your target
 2. \(optional, if step 1 is unsuccessful then use this step\) Choose your user list
