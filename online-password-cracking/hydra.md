@@ -15,5 +15,5 @@ To resolve this correct your "grep condition" which is your last parameter of hy
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
-The correct condition seems to be "error" or "incorrect"
+The correct condition seems to be "ERROR" or "incorrect"
 
