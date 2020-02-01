@@ -101,6 +101,10 @@
 
 ## Technical Notes
 
+* [Kali linux](technical-notes/kali-linux/README.md)
+  * [Working of session](technical-notes/kali-linux/working-of-session.md)
+  * [UAC and process migration](technical-notes/kali-linux/uac-and-process-migration.md)
+  * [Encoding and standard I/O](technical-notes/kali-linux/encoding-and-standard-i-o.md)
 * [AV Evasion](technical-notes/av-evasion/README.md)
   * [Packer and Crypters](technical-notes/av-evasion/packer-and-crypters.md)
 * [7. Metasploit Framework](technical-notes/7.-metasploit-framework/README.md)
@@ -115,9 +119,6 @@
   * [One-liner Reverse Shell](technical-notes/reverse-shell/one-liner-reverse-shell.md)
   * [Metasploit Reverse Shells](technical-notes/reverse-shell/metasploit-reverse-shells.md)
 * [Compiling C/C++ code](technical-notes/compiling-c-c++-code.md)
-* [Kali linux](technical-notes/kali-linux/README.md)
-  * [Working of session](technical-notes/kali-linux/working-of-session.md)
-  * [Encoding and standard I/O](technical-notes/kali-linux/encoding-and-standard-i-o.md)
 * [3. LDAP](technical-notes/3.-ldap.md)
 * [8. Nmap](technical-notes/8.-nmap-theory/README.md)
   * [8.0 Nmap Traffic Accountability](technical-notes/8.-nmap-theory/8.0-nmap-traffic-accountability.md)
