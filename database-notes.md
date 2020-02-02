@@ -18,5 +18,7 @@ How to connect to a mysql database?
   * `select * from table1;`
     * `table1` is one of the tables from the list of tables.
 
+Ref: [https://dev.mysql.com/doc/refman/8.0/en/performance-schema.html](https://dev.mysql.com/doc/refman/8.0/en/performance-schema.html)
+
 
 
