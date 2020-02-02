@@ -7,5 +7,7 @@ How to connect to a mysql database?
   * `root` is the username to connect is the database
   * `enterthepassword` is the password for it.
 
-g
+## Examples
 
+* select table\_name from information\_schema.tables
+* 
