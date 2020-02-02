@@ -9,5 +9,10 @@ How to connect to a mysql database?
 
 ## Examples
 
-* select table\_name from information\_schema.tables
-* 
+* Step 1 : List all the available databases
+  * show databases;
+* Step 2 : go to one of the database
+  * use Users;      \#where Users is the database name.
+  * 
+* * *  * * select table\_name from information\_schema.tables;
+
