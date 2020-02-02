@@ -102,6 +102,7 @@
 ## Technical Notes
 
 * [Kali linux](technical-notes/kali-linux/README.md)
+  * [Database notes](technical-notes/kali-linux/database-notes.md)
   * [Working of session](technical-notes/kali-linux/working-of-session.md)
   * [UAC and process migration](technical-notes/kali-linux/uac-and-process-migration.md)
   * [Encoding and standard I/O](technical-notes/kali-linux/encoding-and-standard-i-o.md)
@@ -136,5 +137,4 @@
 * [Python notes](python-notes.md)
 * [Buffer Overflow cheatsheet](buffer-overflow-cheatsheet/README.md)
   * [Need of NOPs in BO](buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
-* [Database notes](database-notes.md)
 
