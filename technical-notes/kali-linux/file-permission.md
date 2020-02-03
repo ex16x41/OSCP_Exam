@@ -1,6 +1,10 @@
 # File Permission
 
-Ref : [https://www.samba.org/samba/docs/old/Samba3-HOWTO/AccessControls.html](https://www.samba.org/samba/docs/old/Samba3-HOWTO/AccessControls.html)
+* Ref :
+*  [https://www.samba.org/samba/docs/old/Samba3-HOWTO/AccessControls.html](https://www.samba.org/samba/docs/old/Samba3-HOWTO/AccessControls.html)
+* [https://serversitters.com/how-to-calculate-linux-permissions.html](https://serversitters.com/how-to-calculate-linux-permissions.html)
+
+
 
 ![ref : http://ptgmedia.pearsoncmg.com/images/chap4\_9780321613226/elementLinks/04-09-xsan-posix.jpg](../../.gitbook/assets/image%20%2859%29.png)
 
