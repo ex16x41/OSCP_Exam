@@ -22,5 +22,12 @@
 
 ![](../../.gitbook/assets/image%20%2845%29.png)
 
+## What does it means when a user is in root group
 
+* Requirements to exploit this:
+  * We generally aim to run a malicious script as root user.
+  * If a non-root user is in root group, and we have a file whose owner is root and is in root group. We need "group execute" permission must be set on the file. If this requirement is set then we could execute the file.
+  * But we aim to execute custom malicious script, to do this we need "write" permissions on that file.
+  * But even if we do not have permissions to write the file, if the group execute permission is set for all linux commands, then we just need to find a linux command which could execute shell code.
+  * If we found such a command, then we could execute "/bin/bash" or "/bin/sh" using this command to get root shell. 
 
