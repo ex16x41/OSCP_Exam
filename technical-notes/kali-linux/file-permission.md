@@ -1,5 +1,18 @@
 # File Permission
 
+## UID vs eUID ?
+
+Ref : [https://www.osso.nl/blog/setuid-seteuid-uid-euid/](https://www.osso.nl/blog/setuid-seteuid-uid-euid/)
+
+They're different when a program is running set-uid. Effective UID is the user you changed to, UID is the original user.
+
+```text
+id -u    # is the EUID
+id -u -r # is the UID
+```
+
+## File Permission
+
 * Ref :
 *  [https://www.samba.org/samba/docs/old/Samba3-HOWTO/AccessControls.html](https://www.samba.org/samba/docs/old/Samba3-HOWTO/AccessControls.html)
 * [https://serversitters.com/how-to-calculate-linux-permissions.html](https://serversitters.com/how-to-calculate-linux-permissions.html)
