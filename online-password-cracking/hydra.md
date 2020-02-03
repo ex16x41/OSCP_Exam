@@ -5,11 +5,11 @@
 * 
 ## Username enumeration using Hydra
 
-![&quot;-e n&quot; option in hydra](../.gitbook/assets/image%20%2828%29.png)
+![&quot;-e n&quot; option in hydra](../.gitbook/assets/image%20%2829%29.png)
 
 ## Troubleshooting 1
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 To resolve this correct your "grep condition" which is your last parameter of hydra. To correct use the error from the webpage for the desired differentiation.
 
