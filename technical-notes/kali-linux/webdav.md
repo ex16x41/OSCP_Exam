@@ -11,3 +11,7 @@ ref : [https://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0339.html](
 * For the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking \(collision avoidance\).
 * WebDAV uses XML.
 
+## HTTP Method for Distributed Authoring
+
+* e
+
