@@ -46,3 +46,7 @@ Nmap NSE scripts are written in [LUA](http://www.lua.org/) programming language.
 
 ![](../../../.gitbook/assets/image%20%2852%29.png)
 
+### Example 1
+
+`nmap  --script http-default-accounts --script-args "http-default-accounts.basepath='/admin', category='web', fingerprintfile=/usr/share/nmap/nselib/data/http-default-accounts-fingerprints.lua"`
+
