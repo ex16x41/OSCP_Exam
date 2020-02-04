@@ -102,6 +102,7 @@
 ## Technical Notes
 
 * [Kali linux](technical-notes/kali-linux/README.md)
+  * [WebDAV](technical-notes/kali-linux/webdav.md)
   * [Database notes](technical-notes/kali-linux/database-notes.md)
   * [File Permission](technical-notes/kali-linux/file-permission.md)
   * [Working of session](technical-notes/kali-linux/working-of-session.md)
