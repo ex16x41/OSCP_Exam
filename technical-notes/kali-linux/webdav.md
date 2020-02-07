@@ -1,4 +1,10 @@
-# HTTP Headers and WebDAV
+# Web directory and WebDAV
+
+## What is a web directory?
+
+![Example of a Web Directory](../../.gitbook/assets/image%20%2859%29.png)
+
+
 
 ref : [https://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0339.html](https://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0339.html)
 
@@ -24,4 +30,9 @@ ref : [https://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0339.html](
 9. COPY
 10. MOVE
 11. LOCK / UNLOCK
+
+### Using PUT method to upload malicious file on the web server
+
+* using Curl
+* Using burpsuite
 
