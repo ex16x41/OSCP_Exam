@@ -5,7 +5,7 @@
 
 ## HTTP requests errors
 
-![ref: tutorialspoint.com](../.gitbook/assets/image%20%2858%29.png)
+![ref: tutorialspoint.com](../.gitbook/assets/image%20%2859%29.png)
 
 ref: [https://www.tutorialspoint.com/http/http\_status\_codes.htm](https://www.tutorialspoint.com/http/http_status_codes.htm)
 

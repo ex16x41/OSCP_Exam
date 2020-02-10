@@ -9,7 +9,7 @@
 
 ## Troubleshooting 1
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 To resolve this correct your "grep condition" which is your last parameter of hydra. To correct use the error from the webpage for the desired differentiation.
 

@@ -110,7 +110,7 @@ RET
 * Download the [ROPgadget](https://github.com/JonathanSalwan/ROPgadget) script.
 * Using ROPgadget find the ROP gadgets on the vulnerable .exe file.
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 ### Finding ROP in linux 2
 

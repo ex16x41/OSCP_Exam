@@ -12,5 +12,5 @@
 
 ![Older Versions of Windows](../../../.gitbook/assets/fp.png)
 
-![newer versions of Windows](../../../.gitbook/assets/image%20%2844%29.png)
+![newer versions of Windows](../../../.gitbook/assets/image%20%2845%29.png)
 

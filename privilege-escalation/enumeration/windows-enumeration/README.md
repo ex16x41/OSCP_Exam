@@ -29,15 +29,15 @@
 
 ### Search for files and folders with Admin privileges writable by other users
 
-![](../../../.gitbook/assets/image%20%2866%29.png)
+![](../../../.gitbook/assets/image%20%2867%29.png)
 
 ## Changing permissions of a file
 
 ![](../../../.gitbook/assets/image%20%2837%29.png)
 
-![](../../../.gitbook/assets/image%20%2857%29.png)
+![](../../../.gitbook/assets/image%20%2858%29.png)
 
-![](../../../.gitbook/assets/image%20%2873%29.png)
+![](../../../.gitbook/assets/image%20%2874%29.png)
 
 {% embed url="https://www.cyberciti.biz/tips/windows-change-access-permissions-from-the-command-line.html" %}
 
