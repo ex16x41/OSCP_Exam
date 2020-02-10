@@ -137,6 +137,7 @@
     * [8.3.3 Example 3](technical-notes/8.-nmap-theory/8.3-writing-nse-scripts/8.3.3-example-3.md)
   * [8.4 Nmap API](technical-notes/8.-nmap-theory/8.4-nmap-api.md)
 * [Python notes](python-notes.md)
+* [Exploit cron jobs](exploit-cron-jobs.md)
 * [Buffer Overflow cheatsheet](buffer-overflow-cheatsheet/README.md)
   * [Need of NOPs in BO](buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
 

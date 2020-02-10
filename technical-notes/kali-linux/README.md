@@ -19,7 +19,7 @@
 
 ## File Permission
 
-![1000](../../.gitbook/assets/image%20%2846%29.png)
+![1000](../../.gitbook/assets/image%20%2849%29.png)
 
 
 
