@@ -104,6 +104,7 @@
 * [Kali linux](technical-notes/kali-linux/README.md)
   * [Web directory and WebDAV](technical-notes/kali-linux/webdav.md)
   * [Database notes](technical-notes/kali-linux/database-notes.md)
+  * [SSH notes](technical-notes/kali-linux/ssh-notes.md)
   * [File Permission](technical-notes/kali-linux/file-permission.md)
   * [Working of session](technical-notes/kali-linux/working-of-session.md)
   * [UAC and process migration](technical-notes/kali-linux/uac-and-process-migration.md)
