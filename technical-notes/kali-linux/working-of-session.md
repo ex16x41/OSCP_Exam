@@ -35,7 +35,7 @@ We cannot replicate this login bypass using SQLmap.
 
 * To solve this problem, we could use "sessions" to solve our problem.
 * When we successfully logged in to "rmichaels" user, a unique session ID is created for a limited amount of time.
-* If we have this session ID we could use this, in any 3rd party app like SQLmap. The 3rd party app now connects to the webserver using this authenticated session ID, and our problem is solved.
+* If we have this session ID we could use this, in any 3rd party app like sqlmap. The 3rd party app now connects to the webserver using this authenticated session ID, and our problem is solved.
 * `sqlmap -u "http://192.168.137.137/imfadministrator/cms.php?pagename=home" --cookie "PHPSESSIONID=323okoto979vf1q2ihmsgmj7l2"`
 
 ![](../../.gitbook/assets/image.png)
