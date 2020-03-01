@@ -1,6 +1,6 @@
 # PHP notes
 
-## 1\) PHP GET parameters
+[link](https://www.owasp.org/images/6/6b/PHPMagicTricks-TypeJuggling.pdf).
 
 
 
