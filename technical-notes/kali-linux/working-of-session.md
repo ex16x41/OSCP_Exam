@@ -9,7 +9,7 @@
   * But using session ID and authenticated cookie, he could use this session ID for consecutive connections. 
   * The session ID does expires depending on the designer who designed the website.
 
-## Case Study 1
+## Case Study 1 : sqlmap
 
 ### Problem :
 
