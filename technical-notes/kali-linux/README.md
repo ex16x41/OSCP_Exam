@@ -19,7 +19,7 @@
 
 ## File Permission
 
-![1000](../../.gitbook/assets/image%20%2851%29.png)
+![1000](../../.gitbook/assets/image%20%2852%29.png)
 
 ### Check mount permissions
 
