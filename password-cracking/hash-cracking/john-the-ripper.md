@@ -2,7 +2,7 @@
 
 Given we have hash dump stored in `hashes.txt`
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2878%29.png)
 
 * John the ripper has pattern matching feature which could identify generic hashes only. Automatically.
 
@@ -13,9 +13,9 @@ Given we have hash dump stored in `hashes.txt`
 * To do this, we could use john.conf to do it efficiently.
 * We just need to and an extra rule.
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 * `john --wordlist=file1.txt --rules --stdout > mutated.txt`
   * `--rules` : specifies john the ripper to use rules.

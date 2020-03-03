@@ -19,21 +19,21 @@ id -u -r # is the UID
 
 
 
-![ref : http://ptgmedia.pearsoncmg.com/images/chap4\_9780321613226/elementLinks/04-09-xsan-posix.jpg](../../.gitbook/assets/image%20%2870%29.png)
+![ref : http://ptgmedia.pearsoncmg.com/images/chap4\_9780321613226/elementLinks/04-09-xsan-posix.jpg](../../.gitbook/assets/image%20%2872%29.png)
 
-![http://permissions-calculator.org/](../../.gitbook/assets/image%20%2826%29.png)
+![http://permissions-calculator.org/](../../.gitbook/assets/image%20%2828%29.png)
 
-![1000](../../.gitbook/assets/image%20%2853%29.png)
+![1000](../../.gitbook/assets/image%20%2855%29.png)
 
-![2000](../../.gitbook/assets/image%20%2883%29.png)
+![2000](../../.gitbook/assets/image%20%2885%29.png)
 
 * 3000 is when set : "setgid" & "sticky bit"
 * 4000 is when set : "setuid"
 * 7000 is when set : "setgid" & "sticky bit" & "setuid"
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../../.gitbook/assets/image%20%2876%29.png)
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 ## What does it means when a user is in root group
 

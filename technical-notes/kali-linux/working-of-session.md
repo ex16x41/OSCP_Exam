@@ -15,19 +15,19 @@
 
 I was able to somehow bypass login information, but it was a complex thing, I used burp suite for this. After exploiting I came to know that it has SQL Injection vulnerability. I was not able to manually perform SQL Injection, so I tried to use "sqlmap". But unfortunately SQLMap failed to show the result.
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 But I know it is vulnerable to SQL Injection.
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 ### But how come SQL injection worked with "browser" vs "SQLMap"?
 
 * One reason is that, in browser we logged in to the login page. We bypassed the login page somehow which is difficult to replicate using SQLmap.
 
-![](../../.gitbook/assets/image%20%2880%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
-![login bypass](../../.gitbook/assets/image%20%2868%29.png)
+![login bypass](../../.gitbook/assets/image%20%2870%29.png)
 
 We cannot replicate this login bypass using SQLmap.
 
@@ -38,5 +38,5 @@ We cannot replicate this login bypass using SQLmap.
 * If we have this session ID we could use this, in any 3rd party app like sqlmap. The 3rd party app now connects to the webserver using this authenticated session ID, and our problem is solved.
 * `sqlmap -u "http://192.168.137.137/imfadministrator/cms.php?pagename=home" --cookie "PHPSESSIONID=323okoto979vf1q2ihmsgmj7l2"`
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%281%29.png)
 

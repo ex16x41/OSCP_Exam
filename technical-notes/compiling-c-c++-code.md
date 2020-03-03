@@ -26,5 +26,5 @@ ref : [https://stackoverflow.com/questions/44670209/how-to-compile-c-code-in-lin
 
 * `gcc test.c -o exec_run`
 
-
+![](../.gitbook/assets/image.png)
 

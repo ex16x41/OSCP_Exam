@@ -2,7 +2,7 @@
 
 ## What is a web directory?
 
-![Example of a Web Directory](../../.gitbook/assets/image%20%2867%29.png)
+![Example of a Web Directory](../../.gitbook/assets/image%20%2869%29.png)
 
 
 
