@@ -7,5 +7,7 @@
 
 ![ref: tutorialspoint.com](../.gitbook/assets/image%20%2864%29.png)
 
+![common error codes](../.gitbook/assets/image%20%2887%29.png)
+
 ref: [https://www.tutorialspoint.com/http/http\_status\_codes.htm](https://www.tutorialspoint.com/http/http_status_codes.htm)
 
