@@ -1,5 +1,10 @@
 # Compiling C/C++ code
 
+## Steps
+
+* We try to compile the .c file on the victim system first. 
+* If we are unable to do so, we compile it on the attacker system with proper compatibility. 
+
 ## compiling c code in linux for windows environment
 
 Installing the cross-compilation
