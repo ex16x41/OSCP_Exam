@@ -28,3 +28,7 @@ ref : [https://stackoverflow.com/questions/44670209/how-to-compile-c-code-in-lin
 
 ![](../.gitbook/assets/image.png)
 
+### compiling a c code in 32bit linux
+
+* gcc test.c -m32 -o exec\_run
+
