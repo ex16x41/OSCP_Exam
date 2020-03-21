@@ -41,5 +41,5 @@ ref : [https://stackoverflow.com/questions/44670209/how-to-compile-c-code-in-lin
 
 ### compiling a c code in 32bit linux
 
-* gcc test.c -m32 -o exec\_run
+* `gcc test.c -m32 -o exec_run`
 
