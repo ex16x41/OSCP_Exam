@@ -5,6 +5,12 @@
 * We try to compile the .c file on the victim system first. 
 * If we are unable to do so, we compile it on the attacker system with proper compatibility. 
 
+## Linux architecture version
+
+1.  x86-64 \(also known as x64, x86\_64, AMD64 and Intel 64\) is the **64-bit** version of the x86 instruction set.
+2. i686 is the **32 bit** version of the x86 instruction set.
+3. i368 is the **32 bit** version of the x86 instruction set.
+
 ## compiling c code in linux for windows environment
 
 Installing the cross-compilation
