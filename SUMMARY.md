@@ -102,6 +102,8 @@
 ## Technical Notes
 
 * [Kali linux](technical-notes/kali-linux/README.md)
+  * [Working of Tools](technical-notes/kali-linux/working-of-tools/README.md)
+    * [1. dirb](technical-notes/kali-linux/working-of-tools/1.-dirb.md)
   * [Web directory and WebDAV](technical-notes/kali-linux/webdav.md)
   * [Database notes](technical-notes/kali-linux/database-notes.md)
   * [SSH notes](technical-notes/kali-linux/ssh-notes.md)
