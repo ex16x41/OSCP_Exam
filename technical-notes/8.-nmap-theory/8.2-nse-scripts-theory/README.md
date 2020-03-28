@@ -44,7 +44,7 @@ Nmap NSE scripts are written in [LUA](http://www.lua.org/) programming language.
   * nmap --script-help=http-wordpress-users.nse
   * These details does not give details on the arguments, but there is link present in these details which points for details on arguments.
 
-![](../../../.gitbook/assets/image%20%2867%29.png)
+![](../../../.gitbook/assets/image%20%2868%29.png)
 
 ### Example 1
 

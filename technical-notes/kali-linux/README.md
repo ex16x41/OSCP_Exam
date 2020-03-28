@@ -19,13 +19,13 @@
 
 ## File Permission
 
-![1000](../../.gitbook/assets/image%20%2860%29.png)
+![1000](../../.gitbook/assets/image%20%2861%29.png)
 
 ### Check mount permissions
 
 * `mount`
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 ### Creating a NFS mount
 

@@ -5,7 +5,7 @@
 
 ![sql injection example 1](../.gitbook/assets/image%20%289%29.png)
 
-![sql injection example 2](../.gitbook/assets/image%20%2830%29.png)
+![sql injection example 2](../.gitbook/assets/image%20%2831%29.png)
 
 * SQL injection and File inclusion
 

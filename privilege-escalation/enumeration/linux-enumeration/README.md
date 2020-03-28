@@ -17,7 +17,7 @@
   *  **/var/**
 * \*\*\*\*
 
-![whereis](../../../.gitbook/assets/image%20%2872%29.png)
+![whereis](../../../.gitbook/assets/image%20%2873%29.png)
 
 
 
