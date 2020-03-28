@@ -105,6 +105,7 @@
   * [Working of Tools](technical-notes/kali-linux/working-of-tools/README.md)
     * [1. dirb](technical-notes/kali-linux/working-of-tools/1.-dirb.md)
     * [2. sed](technical-notes/kali-linux/working-of-tools/2.-sed.md)
+    * [3. sqlmap \(not for OSCP\)](technical-notes/kali-linux/working-of-tools/3.-sqlmap-not-for-oscp.md)
   * [Web directory and WebDAV](technical-notes/kali-linux/webdav.md)
   * [Database notes](technical-notes/kali-linux/database-notes.md)
   * [SSH notes](technical-notes/kali-linux/ssh-notes.md)
