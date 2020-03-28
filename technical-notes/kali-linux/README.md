@@ -19,13 +19,13 @@
 
 ## File Permission
 
-![1000](../../.gitbook/assets/image%20%2861%29.png)
+![1000](../../.gitbook/assets/image%20%2862%29.png)
 
 ### Check mount permissions
 
 * `mount`
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 ### Creating a NFS mount
 
@@ -33,5 +33,5 @@ cherry notes
 
 ### Running 32bit file on 64bit machine - Linux
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
