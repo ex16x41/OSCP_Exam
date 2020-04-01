@@ -19,15 +19,15 @@ I was able to somehow bypass login information, but it was a complex thing, I us
 
 But I know it is vulnerable to SQL Injection.
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 ### But how come SQL injection worked with "browser" vs "SQLMap"?
 
 * One reason is that, in browser we logged in to the login page. We bypassed the login page somehow which is difficult to replicate using SQLmap.
 
-![](../../.gitbook/assets/image%20%2890%29.png)
+![](../../.gitbook/assets/image%20%2891%29.png)
 
-![login bypass](../../.gitbook/assets/image%20%2877%29.png)
+![login bypass](../../.gitbook/assets/image%20%2878%29.png)
 
 We cannot replicate this login bypass using SQLmap.
 

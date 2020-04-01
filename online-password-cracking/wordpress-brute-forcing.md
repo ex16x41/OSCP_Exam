@@ -8,7 +8,7 @@
 
 ![&quot;elliot&quot; is a valid username](../.gitbook/assets/image%20%2827%29.png)
 
-![&quot;admin&quot; is not a valid username](../.gitbook/assets/image%20%2868%29.png)
+![&quot;admin&quot; is not a valid username](../.gitbook/assets/image%20%2869%29.png)
 
 ## Step 2 : Password list
 
@@ -27,7 +27,7 @@
 
 ### Hydra : Wordpress login brute force
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
 ### Brup Suite : Wordpress login Brute force
 

@@ -5,11 +5,12 @@
 3. 
 ## msfconsole important commands
 
+* `use exploit/.../vuln; show info;`
 * `use exoloit/*/*`
 * `show options`
 * `set rhost *`
 * `set payload windows/shell/reverse_tcp`
 * `show targets` : To display which OS versions are vulnerable to this exploit.
 
-
+![](../../.gitbook/assets/image%20%2868%29.png)
 
