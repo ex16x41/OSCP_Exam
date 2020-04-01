@@ -6,9 +6,9 @@
 * If not then use an intelligent userlist using "cewl" or common usernames using seclists. To enumerate valid usernames.
 * Verify the enumerate usernames
 
-![&quot;elliot&quot; is a valid username](../.gitbook/assets/image%20%2827%29.png)
+![&quot;elliot&quot; is a valid username](../.gitbook/assets/image%20%2828%29.png)
 
-![&quot;admin&quot; is not a valid username](../.gitbook/assets/image%20%2869%29.png)
+![&quot;admin&quot; is not a valid username](../.gitbook/assets/image%20%2870%29.png)
 
 ## Step 2 : Password list
 
@@ -23,11 +23,11 @@
 
 `nmap –sV --script http-wordpress-brute --script-args 'userdb=/root/Desktop/login.txt,passdb=/root/Desktop/pass.txt, http-wordpress-brute.hostname=domain.com,http-wordpress-brute.thread=3,brute.firstonly=true' 192.168.1.17`
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ### Hydra : Wordpress login brute force
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 ### Brup Suite : Wordpress login Brute force
 
