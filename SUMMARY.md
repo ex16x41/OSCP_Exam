@@ -61,7 +61,7 @@
   * [Domain Privilege Escalation](privilege-escalation/enumeration/domain-privilege-escalation.md)
   * [Windows Enumeration](privilege-escalation/enumeration/windows-enumeration/README.md)
     * [windows priv escalation](privilege-escalation/enumeration/windows-enumeration/windows-priv-escalation.md)
-    * [Windows Interesting Files](privilege-escalation/enumeration/windows-enumeration/windows-command-line.md)
+    * [Windows Permission](privilege-escalation/enumeration/windows-enumeration/windows-command-line.md)
   * [Linux Enumeration](privilege-escalation/enumeration/linux-enumeration/README.md)
     * [Shell Escape](privilege-escalation/enumeration/linux-enumeration/shell-escape.md)
   * [Post poping a meterpreter shell](privilege-escalation/enumeration/post-poping-a-shell.md)
