@@ -27,9 +27,13 @@
 
 * file file1.txt
 
-### Search for files and folders with Admin privileges writable by other users
+### Search for files and folders for a given file name "test4.asp"
 
 ![](../../../.gitbook/assets/image%20%2883%29.png)
+
+### Search for files and folders with Admin privileges writable by other users
+
+?
 
 ## Changing permissions of a file
 
