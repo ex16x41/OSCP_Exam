@@ -57,8 +57,6 @@ to know what kind of accesses specific users or groups have to resources includi
 
 ## Creating a new user with admin rights
 
-{% embed url="https://operating-systems.wonderhowto.com/how-to/create-admin-user-account-using-cmd-prompt-windows-0125689/" caption="reference" %}
-
 ```text
 net user /add [*username] [password]
 net localgroup administrators [username] /add
