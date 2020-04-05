@@ -89,7 +89,7 @@ tftp -i 192.168.1.1 get file.txt #where 192.168.1.1 is the IP address of the TFT
 
 ## Using Netcat
 
-It is a simple netcat file transfer command
+It is a simple netcat file transfer command. The connection will not end after transfer, we need to manually close the listner connection.
 
 {% tabs %}
 {% tab title="Sender side" %}
@@ -100,7 +100,7 @@ nc 172.18.39.103 5000 < file.txt
 
 {% tab title="Receiver side" %}
 ```text
-nc -lvp 5000
+nc -lvp 5000 > file.txt
 ```
 {% endtab %}
 {% endtabs %}
