@@ -23,6 +23,8 @@ sudo apt-get install mingw-w64
 
 ```text
 i686-w64-mingw32-gcc -o test.exe test.c
+or
+i686-w64-mingw32-gcc test.c -lws2_32 -o test.exe
 ```
 
 64bit
