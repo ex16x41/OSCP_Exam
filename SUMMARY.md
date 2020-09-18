@@ -28,10 +28,12 @@
       * [3.1.1.1 Basic DNS Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.1-dns-enumeration/dns-enumeration.md)
       * [3.1.1.2 DNS Zone Transfer](information-gathering/3.-information-gathering-active/enumeration/3.1.1-dns-enumeration/dns-zone-transfer-practical.md)
       * [3.1.1.3 Brute Force DNS lookup](information-gathering/3.-information-gathering-active/enumeration/3.1.1-dns-enumeration/3.1.1.3-brute-force-dns-lookup.md)
-    * [3.1.2 Port Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/README.md)
-      * [3.1.2.1 Port Scanning](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/3.1.2.1-nmap-practical.md)
-      * [3.1.2.2 Nmap Port Scanning](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/3.1.2.2-nmap-port-scanning.md)
-    * [3.1.3 LDAP Enumeration](information-gathering/3.-information-gathering-active/enumeration/ldap-enumeration.md)
+    * [3.1.2 URL Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.2-url-enumeration/README.md)
+      * [Tools](information-gathering/3.-information-gathering-active/enumeration/3.1.2-url-enumeration/tools.md)
+    * [3.1.3 Port Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/README.md)
+      * [3.1.3.1 Port Scanning](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/3.1.2.1-nmap-practical.md)
+      * [3.1.3.2 Nmap Port Scanning](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/3.1.2.2-nmap-port-scanning.md)
+    * [3.1.4 LDAP Enumeration](information-gathering/3.-information-gathering-active/enumeration/ldap-enumeration.md)
     * [3.1.5 SMB Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.4-smb-enumeration/README.md)
       * [3.1.5.1 SMB NetBIOS Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.4-smb-enumeration/enumeration-1/README.md)
         * [2. NetBIOS](information-gathering/3.-information-gathering-active/enumeration/3.1.4-smb-enumeration/enumeration-1/untitled-1/README.md)
@@ -65,6 +67,9 @@
   * [Linux Enumeration](privilege-escalation/enumeration/linux-enumeration/README.md)
     * [Shell Escape](privilege-escalation/enumeration/linux-enumeration/shell-escape.md)
   * [Post poping a meterpreter shell](privilege-escalation/enumeration/post-poping-a-shell.md)
+
+---
+
 * [5. Port Redirection and Tunneling](5.-port-redirection-and-tunneling/README.md)
   * [5.1 Port forwarding/Redirection](5.-port-redirection-and-tunneling/5.1-port-forwarding-redirection.md)
   * [5.2 SSH Tunneling](5.-port-redirection-and-tunneling/5.2-ssh-tunneling.md)
@@ -142,6 +147,9 @@
     * [8.3.2 Example 2](technical-notes/8.-nmap-theory/8.3-writing-nse-scripts/8.3.2-example-2.md)
     * [8.3.3 Example 3](technical-notes/8.-nmap-theory/8.3-writing-nse-scripts/8.3.3-example-3.md)
   * [8.4 Nmap API](technical-notes/8.-nmap-theory/8.4-nmap-api.md)
+
+---
+
 * [New Security Features](new-security-features.md)
 * [PHP notes](php-notes.md)
 * [Python notes](python-notes.md)
