@@ -2,6 +2,16 @@
 
 ### 1\) New socket connection
 
+### Python requests
+
+* It accepts data in JSON format, except the URL parameter which is a string. If we have to send "`name=a`" then,
+  * `{"name":"a"}`
+* `url = "http://10.10.10.179/api/getColleagues"`
+* `data = {"name":"a"}` 
+* `header = {"Content-Type":"application/json;charset=utf-8"}` 
+* `proxy = {"http":"127.0.0.1:8080"}`
+* `r = requests.post(url, json=data, headers=header, proxies=proxy)`
+
 ```text
 #!/usr/bin/python
 
@@ -64,4 +74,19 @@ except:
 ### 2\) Carriage return
 
 `'\r\n'` : Equivalent to "enter" of keyboard.
+
+## Example 2 : Create simple request response
+
+```text
+import requests
+import json
+
+url = "http://10.10.10.179/api/getColleagues"
+
+data = {"name":"a"}
+header = {"Content-Type":"application/json;charset=utf-8"}
+proxy = {"http":"127.0.0.1:8080"}
+r = requests.post(url, json=data, headers=header, proxies=proxy)
+print(r.text)
+```
 
