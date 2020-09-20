@@ -1,9 +1,9 @@
 # Table of contents
 
 * [My OSCP Notes](README.md)
-* [Important Links](important-links.md)
+* [Resources](important-links.md)
+* [My Plan for OSCP](my-plan-for-oscp.md)
 * [OSCP Exam Overview](oscp-exam-overview.md)
-* [Summary](summary.md)
 
 ## Information Gathering
 

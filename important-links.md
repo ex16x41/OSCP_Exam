@@ -1,4 +1,4 @@
-# Important Links
+# Resources
 
 Below are very important links and information that any beginner pentester should know.
 
@@ -10,7 +10,7 @@ Below are very important links and information that any beginner pentester shoul
 
 2\) Everybody should know vulnhub.com. It is what beginners and professionals could use to learn more of pentesting and also could teach others too by publishing your own virtual machines. Below are some of the website that you could explore to find vulnerable vm to practice on your personal lab environment.
 
-* [https://www.hackthebox.eu](https://www.hackthebox.eu)   \(the real deal\)
+* [https://www.hackthebox.eu](https://www.hackthebox.eu)  
 * [https://www.vulnhub.com/](https://www.vulnhub.com/)
 * [https://www.vulnhub.com/timeline/](https://www.vulnhub.com/timeline/)
 * [https://www.hackthissite.org/](https://www.hackthissite.org/)
