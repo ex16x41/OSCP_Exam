@@ -70,7 +70,7 @@
 ## Notes
 
 * [Python notes](notes/python-notes/README.md)
-  * [Untitled](notes/python-notes/untitled.md)
+  * [Socket Connection](notes/python-notes/untitled.md)
   * [Python cmd prompt](notes/python-notes/python-cmd-prompt.md)
 * [PHP notes](notes/php-notes.md)
 * [Online password Cracking](notes/online-password-cracking/README.md)
