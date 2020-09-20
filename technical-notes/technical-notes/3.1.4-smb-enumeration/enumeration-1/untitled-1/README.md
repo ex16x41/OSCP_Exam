@@ -26,9 +26,9 @@ description: >-
   * automatically adds a hidden character at the end of the computer name.
   * WINS service \(in Windows OS\) uses NetBIOS name. WINS is a name resolution service
 
-![](../../../../../../.gitbook/assets/image-65.png)
+![](../../../../../.gitbook/assets/image-65.png)
 
 \*\) We use **nbtstat** to get information on NetBIOS.
 
-![](../../../../../../.gitbook/assets/image-58.png)
+![](../../../../../.gitbook/assets/image-58.png)
 
