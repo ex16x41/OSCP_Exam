@@ -56,6 +56,16 @@
   * [Post poping a meterpreter shell](privilege-escalation/enumeration/post-poping-a-shell.md)
 * [Getting root](privilege-escalation/getting-root.md)
 
+## Attack & Exploits <a id="exploits"></a>
+
+* [SQL Injection](exploits/7.3-sql-injection/README.md)
+  * [SQLMap](exploits/7.3-sql-injection/sqlmap.md)
+* [File Inclusion Vulnerabilities](exploits/7.2-file-inclusion-vulnerabilities/README.md)
+  * [Use Cases](exploits/7.2-file-inclusion-vulnerabilities/use-cases.md)
+* [Exploit cron jobs](exploits/exploit-cron-jobs.md)
+* [Buffer Overflow cheatsheet](exploits/buffer-overflow-cheatsheet/README.md)
+  * [Need of NOPs in BO](exploits/buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
+
 ## Notes
 
 * [Python notes](notes/python-notes.md)
@@ -86,16 +96,6 @@
   * [5.3 Proxychains](notes/5.-port-redirection-and-tunneling/untitled.md)
   * [5.4 HTTP Tunneling](notes/5.-port-redirection-and-tunneling/5.4-http-tunneling.md)
   * [5.5 Traffic Encapsulation](notes/5.-port-redirection-and-tunneling/5.5-traffic-encapsulation.md)
-
-## Attack & Exploits <a id="exploits"></a>
-
-* [SQL Injection](exploits/7.3-sql-injection.md)
-* [SQLMap](exploits/sqlmap.md)
-* [File Inclusion Vulnerabilities](exploits/7.2-file-inclusion-vulnerabilities/README.md)
-  * [Use Cases](exploits/7.2-file-inclusion-vulnerabilities/use-cases.md)
-* [Exploit cron jobs](exploits/exploit-cron-jobs.md)
-* [Buffer Overflow cheatsheet](exploits/buffer-overflow-cheatsheet/README.md)
-  * [Need of NOPs in BO](exploits/buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
 
 ## Security Defenses
 
