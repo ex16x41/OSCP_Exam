@@ -4,6 +4,8 @@
 
 ### Python requests
 
+![](../.gitbook/assets/image%20%28104%29.png)
+
 * It accepts data in JSON format, except the URL parameter which is a string. If we have to send "`name=a`" then,
   * `{"name":"a"}`
 * `url = "http://10.10.10.179/api/getColleagues"`
@@ -11,6 +13,7 @@
 * `header = {"Content-Type":"application/json;charset=utf-8"}` 
 * `proxy = {"http":"127.0.0.1:8080"}`
 * `r = requests.post(url, json=data, headers=header, proxies=proxy)`
+  * We need to specify "json=data" as already we are specifying "data" in json format. But actually the request need data is raw json format.
 
 ```text
 #!/usr/bin/python
