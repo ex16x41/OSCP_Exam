@@ -53,6 +53,14 @@
   * [Nikto](vulnerability-assessment/4.-vulnerability-assessment/nikto.md)
   * [OpenVAS](vulnerability-assessment/4.-vulnerability-assessment/openvas.md)
 
+## Initial Shell
+
+* [Reverse Shell](initial-shell/reverse-shell/README.md)
+  * [TTY session](initial-shell/reverse-shell/tty-session.md)
+  * [One-liner Reverse Shell](initial-shell/reverse-shell/one-liner-reverse-shell.md)
+  * [Metasploit Reverse Shells](initial-shell/reverse-shell/metasploit-reverse-shells.md)
+* [Untitled](initial-shell/untitled.md)
+
 ## Privilege Escalation
 
 * [Enumeration \(Privilege Escalation\)](privilege-escalation/enumeration/README.md)
@@ -63,6 +71,7 @@
   * [Linux Enumeration](privilege-escalation/enumeration/linux-enumeration/README.md)
     * [Shell Escape](privilege-escalation/enumeration/linux-enumeration/shell-escape.md)
   * [Post poping a meterpreter shell](privilege-escalation/enumeration/post-poping-a-shell.md)
+* [Getting root](privilege-escalation/getting-root.md)
 
 ---
 
@@ -133,12 +142,7 @@
     * [3.1.1.2 DNS Zone Transfer](technical-notes/technical-notes/3.1.1-dns-enumeration/dns-zone-transfer-practical.md)
     * [3.1.1.3 Brute Force DNS lookup](technical-notes/technical-notes/3.1.1-dns-enumeration/3.1.1.3-brute-force-dns-lookup.md)
   * [3. LDAP](technical-notes/technical-notes/3.-ldap.md)
-* [Getting root](technical-notes/getting-root.md)
 * [HTTP](technical-notes/http.md)
-* [Reverse Shell](technical-notes/reverse-shell/README.md)
-  * [TTY session](technical-notes/reverse-shell/tty-session.md)
-  * [One-liner Reverse Shell](technical-notes/reverse-shell/one-liner-reverse-shell.md)
-  * [Metasploit Reverse Shells](technical-notes/reverse-shell/metasploit-reverse-shells.md)
 * [Compiling C/C++ code](technical-notes/compiling-c-c++-code.md)
 
 ---
@@ -151,7 +155,6 @@
 * [Exploit cron jobs](exploits/exploit-cron-jobs.md)
 * [Buffer Overflow cheatsheet](exploits/buffer-overflow-cheatsheet/README.md)
   * [Need of NOPs in BO](exploits/buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
-* [Untitled](exploits/untitled.md)
 
 ## Security Defenses
 
