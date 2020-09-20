@@ -15,7 +15,7 @@ msfconsole
 {% endtab %}
 {% endtabs %}
 
-![](../../.gitbook/assets/image-49.png)
+![](../../../.gitbook/assets/image-49.png)
 
 ## Step 2 : Information gathering \(host discovery\) - using nmap with metasploit
 
@@ -30,7 +30,7 @@ nmap -Pn -sS -A -oX Target.xml 172.18.39.0/24
 * `-A` enables OS detection, version detection, script scanning, traceroute.
 * `-oX` generates a report of scanning results in .xml file. In this case "Target.xml" file
 
-![](../../.gitbook/assets/image-69.png)
+![](../../../.gitbook/assets/image-69.png)
 
 ### We then import the generated "Target.xml" file to metasploit backend database.
 
@@ -38,7 +38,7 @@ nmap -Pn -sS -A -oX Target.xml 172.18.39.0/24
 db_import Target.xml
 ```
 
-![](../../.gitbook/assets/image-50.png)
+![](../../../.gitbook/assets/image-50.png)
 
 To verify the imported hosts, use the below commands.
 
@@ -46,7 +46,7 @@ To verify the imported hosts, use the below commands.
 hosts
 ```
 
-![](../../.gitbook/assets/image-70.png)
+![](../../../.gitbook/assets/image-70.png)
 
 ## Step 2 : Information gathering \(host discovery\) - using db\_nmap with metasploit \(alternative method\)
 
@@ -54,11 +54,11 @@ hosts
 
 We should be able to enter the db\_nmap command from within msfconsole to run Nmap and have its results automatically stored in our new database.
 
-![](../../.gitbook/assets/image-43.png)
+![](../../../.gitbook/assets/image-43.png)
 
 To verify the imported hosts, use the below commands.
 
-![](../../.gitbook/assets/image-61.png)
+![](../../../.gitbook/assets/image-61.png)
 
 ## Step 2 : Information gathering \(port scanning\)
 
@@ -70,7 +70,7 @@ set rhosts 172.18.39.101
 set threads 100
 ```
 
-![](../../.gitbook/assets/image-22.png)
+![](../../../.gitbook/assets/image-22.png)
 
 * `use scanner/portscan/syn` it selects the `syn` module present in directory `scanner/portscan.`
 * `show options` it list the arguments that this module contains. We could change the arguments using the `set` command.
@@ -82,7 +82,7 @@ set threads 100
 exploit
 ```
 
-![](../../.gitbook/assets/image-57.png)
+![](../../../.gitbook/assets/image-57.png)
 
 ## Step 3 : Vulnerability Scanning
 
@@ -96,7 +96,7 @@ metasploit has many exploit inbuild in it. It is constantly update by its govern
 
 The process is very similar we identify a vulnerability in a system. We then find an exploit against that vulnerability using metasploit `search` command.
 
-![](../../.gitbook/assets/image-68.png)
+![](../../../.gitbook/assets/image-68.png)
 
 Then after figuring out the exploit, use similar steps that were taken in step 2 to set the arguments and run the exploit.
 

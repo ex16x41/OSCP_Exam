@@ -2,7 +2,7 @@
 
 ## What is the difference between a **tool** and a **framework**
 
-![](../../.gitbook/assets/image-66.png)
+![](../../../.gitbook/assets/image-66.png)
 
 ## What is Metasploit Framework?
 

@@ -10,7 +10,7 @@ If you want to do simple DNS enumeration of domain "zonetransfer.me".
 host zonetransfer.me
 ```
 
-![](../../../../.gitbook/assets/image-7.png)
+![](../../../.gitbook/assets/image-7.png)
 
 If you want to find out the name server NS, associated with domain "zonetransfer.me" then you need to execute the below command in Kali linux.
 
@@ -18,11 +18,11 @@ If you want to find out the name server NS, associated with domain "zonetransfer
 host -t ns zonetransfer.me
 ```
 
-![](../../../../.gitbook/assets/image-64.png)
+![](../../../.gitbook/assets/image-64.png)
 
 ## Example 1 :
 
-![](../../../../.gitbook/assets/image-41.png)
+![](../../../.gitbook/assets/image-41.png)
 
 
 

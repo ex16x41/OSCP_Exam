@@ -12,7 +12,7 @@ Tutorial link : [https://www.youtube.com/watch?v=kdYnSfzb3UA](https://www.youtub
 
 ## Interacting with a DNS server
 
-![nameserver and mx\(mail\) records](../../../../.gitbook/assets/image%20%282%29.png)
+![nameserver and mx\(mail\) records](../../../.gitbook/assets/image%20%282%29.png)
 
 Nameserver and Mailservers are the most commonly accessable entries in a DNS server.
 

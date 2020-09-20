@@ -32,19 +32,19 @@ This is not the actual zone transfer attack, we are first checking if could perf
 
 ### Example 1- Using "host" : yes vulnerable
 
-![](../../../../.gitbook/assets/image-32.png)
+![](../../../.gitbook/assets/image-32.png)
 
 ### Example 2- Using "dig" : yes vulnerable
 
-![](../../../../.gitbook/assets/image-31.png)
+![](../../../.gitbook/assets/image-31.png)
 
 ## Performing Actual Zone transfer
 
 ### Example 1 - Using "dig"
 
-![](../../../../.gitbook/assets/image-5.png)
+![](../../../.gitbook/assets/image-5.png)
 
 ### Example 2- Using nslookup
 
-![](../../../../.gitbook/assets/image-54.png)
+![](../../../.gitbook/assets/image-54.png)
 
