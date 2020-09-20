@@ -59,6 +59,7 @@
 ## Attack & Exploits <a id="exploits"></a>
 
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
+  * [Database notes](exploits/7.3-sql-injection/database-notes.md)
   * [SQLMap](exploits/7.3-sql-injection/sqlmap.md)
 * [File Inclusion Vulnerabilities](exploits/7.2-file-inclusion-vulnerabilities/README.md)
   * [Use Cases](exploits/7.2-file-inclusion-vulnerabilities/use-cases.md)
@@ -136,7 +137,6 @@
       * [8.3.2 Example 2](technical-notes/technical-notes/8.-nmap-theory/8.3-writing-nse-scripts/8.3.2-example-2.md)
       * [8.3.3 Example 3](technical-notes/technical-notes/8.-nmap-theory/8.3-writing-nse-scripts/8.3.3-example-3.md)
     * [8.4 Nmap API](technical-notes/technical-notes/8.-nmap-theory/8.4-nmap-api.md)
-  * [Database notes](technical-notes/technical-notes/database-notes.md)
   * [Encoding and standard I/O](technical-notes/technical-notes/encoding-and-standard-i-o.md)
   * [Working of session](technical-notes/technical-notes/working-of-session.md)
   * [File Permission](technical-notes/technical-notes/file-permission.md)
