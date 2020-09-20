@@ -4,7 +4,7 @@
 
 ### Python requests
 
-![](../.gitbook/assets/image%20%28104%29.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 * It accepts data in JSON format, except the URL parameter which is a string. If we have to send "`name=a`" then,
   * `{"name":"a"}`
