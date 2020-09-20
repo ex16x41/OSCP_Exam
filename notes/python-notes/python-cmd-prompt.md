@@ -2,8 +2,6 @@
 
 Ref : [https://pymotw.com/2/cmd/](https://pymotw.com/2/cmd/)
 
-
-
 ```text
 import requests
 import json
