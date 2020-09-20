@@ -75,13 +75,13 @@
 
 ---
 
-* [5. Port Redirection and Tunneling](5.-port-redirection-and-tunneling/README.md)
+* [Port Redirection and Tunneling](5.-port-redirection-and-tunneling/README.md)
   * [5.1 Port forwarding/Redirection](5.-port-redirection-and-tunneling/5.1-port-forwarding-redirection.md)
   * [5.2 SSH Tunneling](5.-port-redirection-and-tunneling/5.2-ssh-tunneling.md)
   * [5.3 Proxychains](5.-port-redirection-and-tunneling/untitled.md)
   * [5.4 HTTP Tunneling](5.-port-redirection-and-tunneling/5.4-http-tunneling.md)
   * [5.5 Traffic Encapsulation](5.-port-redirection-and-tunneling/5.5-traffic-encapsulation.md)
-* [6. File Transfer](4.-file-transfer/README.md)
+* [File Transfer](4.-file-transfer/README.md)
   * [6.1 Using HFS](4.-file-transfer/4.1-using-hfs.md)
   * [6.2 Using SCP](4.-file-transfer/4.2-using-scp.md)
 * [Password Cracking](password-cracking/README.md)
@@ -101,17 +101,30 @@
   * [Hydra](online-password-cracking/hydra.md)
   * [Performance of cracking](online-password-cracking/performance-of-cracking.md)
   * [Wordpress Brute Forcing](online-password-cracking/wordpress-brute-forcing.md)
-* [7. Web App Attacks](7.-web-app-attacks/README.md)
-  * [7.1 Cross Site Scripting \(XSS\)](7.-web-app-attacks/7.1-cross-site-scripting-xss.md)
-  * [7.2 File Inclusion Vulnerabilities](7.-web-app-attacks/7.2-file-inclusion-vulnerabilities.md)
-  * [7.3 SQL Injection](7.-web-app-attacks/7.3-sql-injection/README.md)
-    * [SQL for OSCP](7.-web-app-attacks/7.3-sql-injection/sql-for-oscp.md)
-  * [Unsanitized User Inputs Summary](7.-web-app-attacks/unsanitized-user-inputs.md)
-  * [Use Cases](7.-web-app-attacks/use-cases.md)
+* [PHP notes](php-notes.md)
+* [Python notes](python-notes.md)
+
+## Attack & Exploits <a id="exploits"></a>
+
+* [SQL Injection](exploits/7.3-sql-injection.md)
+* [File Inclusion Vulnerabilities](exploits/7.2-file-inclusion-vulnerabilities/README.md)
+  * [Use Cases](exploits/7.2-file-inclusion-vulnerabilities/use-cases.md)
+* [Exploit cron jobs](exploits/exploit-cron-jobs.md)
+* [Buffer Overflow cheatsheet](exploits/buffer-overflow-cheatsheet/README.md)
+  * [Need of NOPs in BO](exploits/buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
+
+## Security Defenses
+
+* [Handling Security Features](security-defenses/new-security-features/README.md)
+  * [Port Knocking](security-defenses/new-security-features/port-knocking.md)
+  * [Handling WAF](security-defenses/new-security-features/handling-waf.md)
+  * [AV Evasion](security-defenses/new-security-features/av-evasion/README.md)
+    * [Packer and Crypters](security-defenses/new-security-features/av-evasion/packer-and-crypters.md)
 
 ## Technical Notes
 
 * [Technical Notes](technical-notes/technical-notes/README.md)
+  * [7.1 Cross Site Scripting \(XSS\)](technical-notes/technical-notes/7.1-cross-site-scripting-xss.md)
   * [8. Nmap](technical-notes/technical-notes/8.-nmap-theory/README.md)
     * [8.0 Nmap Traffic Accountability](technical-notes/technical-notes/8.-nmap-theory/8.0-nmap-traffic-accountability.md)
     * [8.1 Understanding Open, Closed and Filtered Ports](technical-notes/technical-notes/8.-nmap-theory/8.1-understanding-open-closed-and-filtered-ports.md)
@@ -144,23 +157,4 @@
   * [3. LDAP](technical-notes/technical-notes/3.-ldap.md)
 * [HTTP](technical-notes/http.md)
 * [Compiling C/C++ code](technical-notes/compiling-c-c++-code.md)
-
----
-
-* [PHP notes](php-notes.md)
-* [Python notes](python-notes.md)
-
-## Exploits
-
-* [Exploit cron jobs](exploits/exploit-cron-jobs.md)
-* [Buffer Overflow cheatsheet](exploits/buffer-overflow-cheatsheet/README.md)
-  * [Need of NOPs in BO](exploits/buffer-overflow-cheatsheet/need-of-nops-in-bo.md)
-
-## Security Defenses
-
-* [Handling Security Features](security-defenses/new-security-features/README.md)
-  * [Port Knocking](security-defenses/new-security-features/port-knocking.md)
-  * [Handling WAF](security-defenses/new-security-features/handling-waf.md)
-  * [AV Evasion](security-defenses/new-security-features/av-evasion/README.md)
-    * [Packer and Crypters](security-defenses/new-security-features/av-evasion/packer-and-crypters.md)
 

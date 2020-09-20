@@ -5,7 +5,7 @@ description: >-
   of either windows or Linux.
 ---
 
-# 6. File Transfer
+# File Transfer
 
 Link : [https://burmat.gitbook.io/security/hacking/one-liners-and-dirty-scripts\#file-transfers](https://burmat.gitbook.io/security/hacking/one-liners-and-dirty-scripts#file-transfers)
 
