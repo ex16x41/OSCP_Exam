@@ -90,6 +90,7 @@
 ## Attack & Exploits <a id="exploits"></a>
 
 * [SQL Injection](exploits/7.3-sql-injection.md)
+* [SQLMap](exploits/sqlmap.md)
 * [File Inclusion Vulnerabilities](exploits/7.2-file-inclusion-vulnerabilities/README.md)
   * [Use Cases](exploits/7.2-file-inclusion-vulnerabilities/use-cases.md)
 * [Exploit cron jobs](exploits/exploit-cron-jobs.md)
