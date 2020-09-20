@@ -120,6 +120,7 @@
   * [UAC and process migration](technical-notes/kali-linux/uac-and-process-migration.md)
   * [Encoding and standard I/O](technical-notes/kali-linux/encoding-and-standard-i-o.md)
 * [Getting root](technical-notes/getting-root.md)
+* [Handling WAF](technical-notes/handling-waf.md)
 * [AV Evasion](technical-notes/av-evasion/README.md)
   * [Packer and Crypters](technical-notes/av-evasion/packer-and-crypters.md)
 * [7. Metasploit Framework](technical-notes/7.-metasploit-framework/README.md)

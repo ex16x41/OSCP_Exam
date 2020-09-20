@@ -17,6 +17,9 @@
 
 ## Check if webapp is vulnerable to SQL Injection
 
+* Check for allowed special characters.
+  * d
+
 ## Given webapp is vulnerable to SQL injection how to extract useful information.
 
 1. **Union Select Method** for gathering more information during SQL Injection
