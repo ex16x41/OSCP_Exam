@@ -22,18 +22,11 @@
     * [2.3.1 Netcraft](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.1-netcraft.md)
     * [2.3.2 Whois Enumeration](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.2-whois-enumeration.md)
     * [2.3.3 Recon-ng](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.3-recon-ng.md)
-* [3. Information Gathering \(Active\)](information-gathering/3.-information-gathering-active/README.md)
-  * [3.1 Enumeration](information-gathering/3.-information-gathering-active/enumeration/README.md)
-    * [3.1.2 URL Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.2-url-enumeration/README.md)
-      * [Directory Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.2-url-enumeration/tools.md)
-    * [3.1.3 Port Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/README.md)
-      * [3.1.3.1 Port Scanning](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/3.1.2.1-nmap-practical.md)
-      * [3.1.3.2 Nmap Port Scanning](information-gathering/3.-information-gathering-active/enumeration/3.1.2-port-enumeration/3.1.2.2-nmap-port-scanning.md)
-    * [3.1.6 SMTP Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.5-smtp-enumeration.md)
-    * [3.1.7 SNMP Enumeration](information-gathering/3.-information-gathering-active/enumeration/3.1.6-snmp-enumeration.md)
-  * [3.2 Identifying bugs in Application](information-gathering/3.-information-gathering-active/3.2-fuzzing/README.md)
-    * [3.2.1 Fuzzing](information-gathering/3.-information-gathering-active/3.2-fuzzing/3.2.1-fuzzing.md)
-    * [3.2.2 Source Code Analysis](information-gathering/3.-information-gathering-active/3.2-fuzzing/3.2.2-source-code-analysis.md)
+* [3. URL Enumeration](information-gathering/3.1.2-url-enumeration/README.md)
+  * [Directory Enumeration](information-gathering/3.1.2-url-enumeration/tools.md)
+* [4. Identifying bugs in Application](information-gathering/3.2-fuzzing/README.md)
+  * [3.2.1 Fuzzing](information-gathering/3.2-fuzzing/3.2.1-fuzzing.md)
+  * [3.2.2 Source Code Analysis](information-gathering/3.2-fuzzing/3.2.2-source-code-analysis.md)
 
 ## Vulnerability Assessment
 
@@ -115,6 +108,13 @@
 ## Technical Notes
 
 * [Technical Notes](technical-notes/technical-notes/README.md)
+  * [3. Information Gathering \(Active\)](technical-notes/technical-notes/3.-information-gathering-active/README.md)
+    * [3.1 Enumeration](technical-notes/technical-notes/3.-information-gathering-active/enumeration.md)
+  * [3.1.3 Port Enumeration](technical-notes/technical-notes/3.1.2-port-enumeration/README.md)
+    * [3.1.3.1 Port Scanning](technical-notes/technical-notes/3.1.2-port-enumeration/3.1.2.1-nmap-practical.md)
+    * [3.1.3.2 Nmap Port Scanning](technical-notes/technical-notes/3.1.2-port-enumeration/3.1.2.2-nmap-port-scanning.md)
+  * [3.1.7 SNMP Enumeration](technical-notes/technical-notes/3.1.6-snmp-enumeration.md)
+  * [3.1.6 SMTP Enumeration](technical-notes/technical-notes/3.1.5-smtp-enumeration.md)
   * [3.1.5 SMB Enumeration](technical-notes/technical-notes/3.1.4-smb-enumeration/README.md)
     * [3.1.5.1 SMB NetBIOS Enumeration](technical-notes/technical-notes/3.1.4-smb-enumeration/enumeration-1/README.md)
       * [2. NetBIOS](technical-notes/technical-notes/3.1.4-smb-enumeration/enumeration-1/untitled-1/README.md)

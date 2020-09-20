@@ -1,4 +1,4 @@
-# 3.2 Identifying bugs in Application
+# 4. Identifying bugs in Application
 
 There are two method to identify bugs in Application
 
