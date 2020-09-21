@@ -6,7 +6,12 @@
 
 
 
-![solution](../../.gitbook/assets/image%20%28110%29.png)
+![solution](../../.gitbook/assets/image%20%28111%29.png)
 
-### 
+### 2\) AttributeError: 'NoneType' object has no attribute 'text'
+
+* This basically shown when you have not returned value from a function, and the value is variable is set to null.
+* Solution : Just return value.
+
+![value not returned.](../../.gitbook/assets/image%20%28110%29.png)
 
