@@ -44,18 +44,6 @@
   * [One-liner Reverse Shell](initial-shell/reverse-shell/one-liner-reverse-shell.md)
   * [Metasploit Reverse Shells](initial-shell/reverse-shell/metasploit-reverse-shells.md)
 
-## Privilege Escalation
-
-* [Enumeration \(Privilege Escalation\)](privilege-escalation/enumeration/README.md)
-  * [Domain Privilege Escalation](privilege-escalation/enumeration/domain-privilege-escalation.md)
-  * [Windows Enumeration](privilege-escalation/enumeration/windows-enumeration/README.md)
-    * [windows priv escalation](privilege-escalation/enumeration/windows-enumeration/windows-priv-escalation.md)
-    * [Windows Permission](privilege-escalation/enumeration/windows-enumeration/windows-command-line.md)
-  * [Linux Enumeration](privilege-escalation/enumeration/linux-enumeration/README.md)
-    * [Shell Escape](privilege-escalation/enumeration/linux-enumeration/shell-escape.md)
-  * [Post poping a meterpreter shell](privilege-escalation/enumeration/post-poping-a-shell.md)
-* [Getting root](privilege-escalation/getting-root.md)
-
 ## Attack & Exploits <a id="exploits"></a>
 
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
@@ -103,6 +91,18 @@
   * [5.3 Proxychains](notes/5.-port-redirection-and-tunneling/untitled.md)
   * [5.4 HTTP Tunneling](notes/5.-port-redirection-and-tunneling/5.4-http-tunneling.md)
   * [5.5 Traffic Encapsulation](notes/5.-port-redirection-and-tunneling/5.5-traffic-encapsulation.md)
+
+## Privilege Escalation
+
+* [Enumeration \(Privilege Escalation\)](privilege-escalation/enumeration/README.md)
+  * [Domain Privilege Escalation](privilege-escalation/enumeration/domain-privilege-escalation.md)
+  * [Windows Enumeration](privilege-escalation/enumeration/windows-enumeration/README.md)
+    * [windows priv escalation](privilege-escalation/enumeration/windows-enumeration/windows-priv-escalation.md)
+    * [Windows Permission](privilege-escalation/enumeration/windows-enumeration/windows-command-line.md)
+  * [Linux Enumeration](privilege-escalation/enumeration/linux-enumeration/README.md)
+    * [Shell Escape](privilege-escalation/enumeration/linux-enumeration/shell-escape.md)
+  * [Post poping a meterpreter shell](privilege-escalation/enumeration/post-poping-a-shell.md)
+* [Getting root](privilege-escalation/getting-root.md)
 
 ## Security Defenses
 
