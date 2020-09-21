@@ -1,4 +1,4 @@
-# Online password Cracking
+# Online Password Cracking
 
 * password security audits.
 * Note that blindly running online brute force attack could violate a security policy and would automatically disable the service.
