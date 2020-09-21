@@ -70,6 +70,7 @@
 ## Notes
 
 * [Python notes](notes/python-notes/README.md)
+  * [Python Errors](notes/python-notes/python-errors.md)
   * [Socket Connection](notes/python-notes/untitled.md)
   * [Python cmd prompt](notes/python-notes/python-cmd-prompt.md)
 * [PHP notes](notes/php-notes.md)
