@@ -61,6 +61,7 @@
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
   * [Database notes](exploits/7.3-sql-injection/database-notes.md)
   * [SQLMap](exploits/7.3-sql-injection/sqlmap.md)
+  * [SQLi Shell](exploits/7.3-sql-injection/sqli-shell.md)
 * [File Inclusion Vulnerabilities](exploits/7.2-file-inclusion-vulnerabilities/README.md)
   * [Use Cases](exploits/7.2-file-inclusion-vulnerabilities/use-cases.md)
 * [Exploit cron jobs](exploits/exploit-cron-jobs.md)
