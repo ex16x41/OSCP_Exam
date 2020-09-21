@@ -59,6 +59,7 @@
 ## Attack & Exploits <a id="exploits"></a>
 
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
+  * [SQL Errors](exploits/7.3-sql-injection/sql-errors.md)
   * [Database notes](exploits/7.3-sql-injection/database-notes.md)
   * [SQLMap](exploits/7.3-sql-injection/sqlmap.md)
   * [SQLi Shell](exploits/7.3-sql-injection/sqli-shell.md)
