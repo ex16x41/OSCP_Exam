@@ -94,14 +94,8 @@
 
 ## Privilege Escalation
 
-* [Enumeration \(Privilege Escalation\)](privilege-escalation/enumeration/README.md)
-  * [Domain Privilege Escalation](privilege-escalation/enumeration/domain-privilege-escalation.md)
-  * [Windows Enumeration](privilege-escalation/enumeration/windows-enumeration/README.md)
-    * [windows priv escalation](privilege-escalation/enumeration/windows-enumeration/windows-priv-escalation.md)
-    * [Windows Permission](privilege-escalation/enumeration/windows-enumeration/windows-command-line.md)
-  * [Linux Enumeration](privilege-escalation/enumeration/linux-enumeration/README.md)
-    * [Shell Escape](privilege-escalation/enumeration/linux-enumeration/shell-escape.md)
-  * [Post poping a meterpreter shell](privilege-escalation/enumeration/post-poping-a-shell.md)
+* [Linux Enumeration](privilege-escalation/linux-enumeration/README.md)
+  * [Shell Escape](privilege-escalation/linux-enumeration/shell-escape.md)
 * [Getting root](privilege-escalation/getting-root.md)
 
 ## Security Defenses
@@ -115,6 +109,8 @@
 ## Technical Notes
 
 * [Technical Notes](technical-notes/technical-notes/README.md)
+  * [Domain Privilege Escalation](technical-notes/technical-notes/domain-privilege-escalation.md)
+  * [Windows File Permission](technical-notes/technical-notes/windows-enumeration.md)
   * [Password Management and Hashes](technical-notes/technical-notes/password-management-and-hashes.md)
   * [3. Information Gathering \(Active\)](technical-notes/technical-notes/3.-information-gathering-active/README.md)
     * [3.1 Enumeration](technical-notes/technical-notes/3.-information-gathering-active/enumeration.md)
