@@ -97,6 +97,7 @@
 
 * [Linux Enumeration](privilege-escalation/linux-enumeration/README.md)
   * [Shell Escape](privilege-escalation/linux-enumeration/shell-escape.md)
+  * [commands](privilege-escalation/linux-enumeration/commands.md)
 * [Getting root](privilege-escalation/getting-root.md)
 
 ## Security Defenses
