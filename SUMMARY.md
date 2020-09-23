@@ -22,7 +22,7 @@
     * [2.3.1 Netcraft](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.1-netcraft.md)
     * [2.3.2 Whois Enumeration](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.2-whois-enumeration.md)
     * [2.3.3 Recon-ng](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.3-recon-ng.md)
-* [3. Port wise service enumeration](information-gathering/4.-port-wise-service-enumeration.md)
+* [3. Enumeration](information-gathering/4.-port-wise-service-enumeration.md)
 * [4. URL Enumeration](information-gathering/3.1.2-url-enumeration/README.md)
   * [Directory Enumeration](information-gathering/3.1.2-url-enumeration/tools.md)
 * [5. Fuzzing](information-gathering/3.2.1-fuzzing.md)
