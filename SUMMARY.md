@@ -40,6 +40,7 @@
 ## Initial Shell
 
 * [Reverse Shell](initial-shell/reverse-shell/README.md)
+  * [Payload Creation](initial-shell/reverse-shell/payload-creation.md)
   * [TTY session](initial-shell/reverse-shell/tty-session.md)
   * [One-liner Reverse Shell](initial-shell/reverse-shell/one-liner-reverse-shell.md)
   * [Metasploit Reverse Shells](initial-shell/reverse-shell/metasploit-reverse-shells.md)
