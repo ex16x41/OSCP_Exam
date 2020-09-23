@@ -1,4 +1,4 @@
 # commands
 
-* tcpdump -i tan0 icmp
+* tcpdump -i tun0
 
