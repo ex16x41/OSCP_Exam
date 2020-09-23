@@ -40,10 +40,10 @@
 ## Initial Shell
 
 * [Reverse Shell](initial-shell/reverse-shell/README.md)
-  * [Payload Creation](initial-shell/reverse-shell/payload-creation.md)
+  * [Payload Creation](initial-shell/reverse-shell/payload-creation/README.md)
+    * [Metasploit Reverse Shells](initial-shell/reverse-shell/payload-creation/metasploit-reverse-shells.md)
+    * [One-liner Reverse Shell](initial-shell/reverse-shell/payload-creation/one-liner-reverse-shell.md)
   * [TTY session](initial-shell/reverse-shell/tty-session.md)
-  * [One-liner Reverse Shell](initial-shell/reverse-shell/one-liner-reverse-shell.md)
-  * [Metasploit Reverse Shells](initial-shell/reverse-shell/metasploit-reverse-shells.md)
 
 ## Attack & Exploits <a id="exploits"></a>
 

