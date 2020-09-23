@@ -4,6 +4,9 @@
 
 * 415 error code
   * Unsupported Media Type : This is due to invalid "Content-Type" field.
+* 404
+  * **means the file is not present.**
+  * This correct when using curl and other tools from cmd, but using web browser the webpage can trick you.
 
 ## HTTP Error Code 
 
