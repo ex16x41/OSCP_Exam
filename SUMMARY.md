@@ -25,6 +25,7 @@
 * [3. Enumeration](information-gathering/4.-port-wise-service-enumeration/README.md)
   * [Web Application Enumeration](information-gathering/4.-port-wise-service-enumeration/web-application-enumeration.md)
 * [4. URL Enumeration](information-gathering/3.1.2-url-enumeration/README.md)
+  * [File Enumeration](information-gathering/3.1.2-url-enumeration/file-enumeration.md)
   * [Directory Enumeration](information-gathering/3.1.2-url-enumeration/tools.md)
 * [5. Fuzzing](information-gathering/3.2.1-fuzzing.md)
 * [6. Source Code Analysis](information-gathering/3.2.2-source-code-analysis.md)

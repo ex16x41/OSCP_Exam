@@ -9,5 +9,5 @@
 
 ## Wfuzz
 
-* d
+* wfuzz -u [http://10.10.10.82/FUZZ](http://10.10.10.82/FUZZ) -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt --sc 200,204,301,302,307,400,401,403,405,500 --hc 400 -t 20
 
