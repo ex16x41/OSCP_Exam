@@ -6,9 +6,9 @@
 
 * Windows
   * **EXT** = Understand the underlying technology used, and chose your extensions based on this
-  * 1
+  * 1st Scan
     * **EXT**, __html, txt
-  * 2
+  * 2nd Scan
 
 ## Dirsearch
 
