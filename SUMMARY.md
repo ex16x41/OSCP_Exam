@@ -22,8 +22,7 @@
     * [2.3.1 Netcraft](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.1-netcraft.md)
     * [2.3.2 Whois Enumeration](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.2-whois-enumeration.md)
     * [2.3.3 Recon-ng](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.3-recon-ng.md)
-* [3. Enumeration](information-gathering/4.-port-wise-service-enumeration/README.md)
-  * [Web Application Enumeration](information-gathering/4.-port-wise-service-enumeration/web-application-enumeration.md)
+* [3. Enumeration](information-gathering/4.-port-wise-service-enumeration.md)
 * [4. URL Enumeration](information-gathering/3.1.2-url-enumeration/README.md)
   * [Directory Enumeration](information-gathering/3.1.2-url-enumeration/tools.md)
   * [File Enumeration](information-gathering/3.1.2-url-enumeration/file-enumeration.md)
@@ -95,6 +94,7 @@
   * [5.3 Proxychains](notes/5.-port-redirection-and-tunneling/untitled.md)
   * [5.4 HTTP Tunneling](notes/5.-port-redirection-and-tunneling/5.4-http-tunneling.md)
   * [5.5 Traffic Encapsulation](notes/5.-port-redirection-and-tunneling/5.5-traffic-encapsulation.md)
+* [Volatile Memory Analysis](notes/volatile-memory-analysis.md)
 
 ## Privilege Escalation
 
