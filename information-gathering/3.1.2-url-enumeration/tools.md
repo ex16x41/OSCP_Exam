@@ -1,5 +1,9 @@
 # Directory Enumeration
 
+## Wfuzz
+
+* wfuzz -u [http://10.10.10.82/FUZZ](http://10.10.10.82/FUZZ) -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt --sc 200,204,301,302,307,400,401,403,405,500 --hc 400 -t 20
+
 ## Gobuster
 
 * gobuster dir -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt -s 200,204,301,302,307,400,401,403,405,500 -t 20 --url 10.10.10.82
@@ -7,7 +11,5 @@
   * -s allowed status code
   * dir specifies the scan is either directory scanning or file scanning. Hence it is compulsory for both file and dir enumeration.
 
-## Wfuzz
-
-* wfuzz -u [http://10.10.10.82/FUZZ](http://10.10.10.82/FUZZ) -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt --sc 200,204,301,302,307,400,401,403,405,500 --hc 400 -t 20
+## 
 
