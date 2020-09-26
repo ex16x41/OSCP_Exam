@@ -19,7 +19,9 @@ TestRequest("Please Subscribe")
 
 ## Example 1 : Serialized POST request automation
 
-![request](../../.gitbook/assets/image%20%28119%29.png)
+![request](../../.gitbook/assets/image%20%28120%29.png)
 
-![Python Automation](../../.gitbook/assets/image%20%28118%29.png)
+![python automation](../../.gitbook/assets/image%20%28121%29.png)
+
+Here burp was used to validate if the request is generate properly.
 
