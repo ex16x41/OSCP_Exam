@@ -17,11 +17,13 @@ def TestRequest(filename):
 TestRequest("Please Subscribe")
 ```
 
-## Example 1 : Serialized POST request automation
+## Example 1 : Serialized POST request automation for upload bypass
 
 ![request](../../.gitbook/assets/image%20%28120%29.png)
 
 ![python automation](../../.gitbook/assets/image%20%28121%29.png)
 
 Here burp was used to validate if the request is generate properly.
+
+![final script](../../.gitbook/assets/image%20%28122%29.png)
 
