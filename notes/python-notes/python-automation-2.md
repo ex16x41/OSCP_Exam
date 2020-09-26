@@ -17,5 +17,9 @@ def TestRequest(filename):
 TestRequest("Please Subscribe")
 ```
 
+## Example 1 : Serialized POST request automation
 
+![request](../../.gitbook/assets/image%20%28119%29.png)
+
+![Python Automation](../../.gitbook/assets/image%20%28118%29.png)
 
