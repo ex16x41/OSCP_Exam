@@ -64,8 +64,10 @@
 
 * [Python notes](notes/python-notes/README.md)
   * [Python Errors](notes/python-notes/python-errors.md)
-  * [Socket Connection](notes/python-notes/untitled.md)
+  * [Python Automation 1](notes/python-notes/untitled.md)
+  * [Python Automation 2](notes/python-notes/python-automation-2.md)
   * [Python cmd prompt](notes/python-notes/python-cmd-prompt.md)
+  * [Regular Expression](notes/python-notes/regular-expression.md)
 * [PHP notes](notes/php-notes.md)
 * [Online Password Cracking](notes/online-password-cracking/README.md)
   * [crackmapexec](notes/online-password-cracking/crackmapexec.md)
