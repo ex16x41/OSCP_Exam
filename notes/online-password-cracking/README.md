@@ -5,6 +5,12 @@
   * leaving the service in accessible until a administrator enables it.
   * we should be very careful and stealth.
 
+## Brute Force Methodology
+
+![](../../.gitbook/assets/image%20%28123%29.png)
+
+![](../../.gitbook/assets/image%20%28124%29.png)
+
 ## Username Enumeration
 
 * If the application, when a failed login occurs, if the application respond with reason for the failure \(Password is incorrect, or, Username is invalid\) then we could easily enumerate usernames.
