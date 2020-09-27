@@ -5,6 +5,11 @@
   * leaving the service in accessible until a administrator enables it.
   * we should be very careful and stealth.
 
+## Username Enumeration
+
+* If the application, when a failed login occurs, if the application respond with reason for the failure \(Password is incorrect, or, Username is invalid\) then we could easily enumerate usernames.
+* If the application allows new users to register and specify their own usernames, username enumeration is virtually impossible to prevent if the application is to prevent duplicate usernames from being registered.
+
 ## Key to a successful online password cracking
 
 Step 1 : Enumerate and verify all the possible username and verify them.
