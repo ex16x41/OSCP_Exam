@@ -16,6 +16,7 @@
 * If the application, when a failed login occurs, if the application respond with reason for the failure \(Password is incorrect, or, Username is invalid\) then we could easily enumerate usernames.
 * If there is password change / forgotten page, where it asks for username, then we could easily enumerate users there.
 * If the application allows new users to register and specify their own usernames, username enumeration is virtually impossible to prevent if the application is to prevent duplicate usernames from being registered.
+* it may still be possible to enumerate usernames based on the time taken for the application to respond to the login request. Applications often perform very different back-end processing on a login request, depending on whether it contains a valid username.
 
 ## Key to a successful online password cracking
 
