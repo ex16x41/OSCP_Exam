@@ -1,5 +1,7 @@
 # My OSCP Notes
 
+## Always Verify Steps repeatedly
+
 These notes are only for education purpose.
 
 These are my notes while I was preparing for OSCP exam. These notes are only ment to be for learning purposes. These are very to the point notes, as rest of the materials could be easily searched over the internet.
