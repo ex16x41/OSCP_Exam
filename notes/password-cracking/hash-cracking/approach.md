@@ -1,5 +1,15 @@
 # Approach
 
+### Tools
+
+* Hashcat
+  * Hashcat have rules that when applied to a list of passwords, created a list of scrambled fuzzing passwords. Rules can be like toggle uppercase and lowercases.
+  * hashcat --force --stdout pwlist.txt -r /usr/share/hashcat/rules/best64.rule
+  * Note : The list with multiple chained hashcat rules could have duplicates.
+* Crunch
+* Manually
+* Seclists
+
 ### Approach 1
 
 1. Create a list of all months
