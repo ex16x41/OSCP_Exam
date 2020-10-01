@@ -2,7 +2,7 @@
 description: Given hash dump we need to crack password
 ---
 
-# Cracking list
+# Password list
 
 John the ripper
 
