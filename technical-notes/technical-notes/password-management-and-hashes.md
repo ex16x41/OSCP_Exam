@@ -19,7 +19,7 @@
 
 * Windows stores password in security account manager \(SAM\).
 * The same database cannot be copied while the window OS is running. A file system lock is done by kernel on the SAM.
-  * Hence, [In memory attacks](../../notes/password-cracking/password-dump/) are used to dump the SAM. 
+  * Hence, [In memory attacks]() are used to dump the SAM. 
 * Lan manager hashes \(LM hashes\)
   * from windows NT upto windows 2003
   * weak
