@@ -8,4 +8,5 @@
 ## .kdbx keepass database
 
 * keepass2john 
+* hashcat -m 13400 hash.txt /usr/share/seclists/rockyou.txt
 
