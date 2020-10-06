@@ -7,6 +7,10 @@
 
 ![&quot;-e n&quot; option in hydra](../../.gitbook/assets/image%20%2840%29.png)
 
+## Password cracking
+
+* "/dvwa/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:F=incorrect:H=Cookie: PHPSESSID=07b7ebb2faea96f8471ecdb759e68108; security=low"
+
 ## Example : HTTP Basic authorization with base64
 
 * -C option in hydra accepts a list of : seperate username:password list. It will automatically url encode to base64.
