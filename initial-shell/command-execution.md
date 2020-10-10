@@ -30,5 +30,11 @@ echo include($_REQUEST["file"])
 
 ![successful command execution](../.gitbook/assets/image%20%28126%29.png)
 
+* Using /etc/logs/access.log
+
+![To supply user defined inputs](../.gitbook/assets/image%20%28127%29.png)
+
+![Open access.log in php context](../.gitbook/assets/image%20%28129%29.png)
+
 
 
