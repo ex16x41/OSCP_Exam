@@ -22,10 +22,11 @@ echo include($_REQUEST["file"])
     * needs ssh to be accessible, login with username, where username is used to supply user inputs
   * **/etc/logs/apache2/access.log**
     * edit user-agent header field of get requests to supply user inputs
-* For exploiting auth.log we need to have SSH port accessible, which will be enabled generally.
-* Then we try to log in with user `<?php system("whoami"); ?>` 
-* `ssh '<?php system("whoami"); ?>'@10.10.10.81`
-* This login attempt will create a log entry in auth.log file
+* Using /etc/logs/auth.log method,
+  * For exploiting auth.log we need to have SSH port accessible, which will be enabled generally.
+  * Then we try to log in with user `<?php system("whoami"); ?>` 
+  * `ssh '<?php system("whoami"); ?>'@10.10.10.81`
+  * This login attempt will create a log entry in auth.log file
 
 ![successful command execution](../.gitbook/assets/image%20%28126%29.png)
 
