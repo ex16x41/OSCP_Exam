@@ -47,6 +47,7 @@
 
 ## Attack & Exploits <a id="exploits"></a>
 
+* [Login Page Attacks](exploits/login-page-attacks.md)
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
   * [Database notes](exploits/7.3-sql-injection/database-notes.md)
   * [SQL Errors](exploits/7.3-sql-injection/sql-errors.md)
