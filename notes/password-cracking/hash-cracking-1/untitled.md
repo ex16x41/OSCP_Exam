@@ -6,7 +6,7 @@
 
 * `./hashid.py`
   * _paste\_you\_hash_
-* `hashcat example-hashes | less`
+* `hashcat --example-hashes | less`
   * This will print list of all possible hash type
   * Now compare this list with our target hash find out earlier using hashid
     * There may be more than one hash algorithms with same hash key length, say for key length of 384 we have three hash types "SHA2-384" vs "SHA3-384" vs "Keccak-384"
