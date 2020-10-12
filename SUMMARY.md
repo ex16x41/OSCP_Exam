@@ -24,7 +24,8 @@
     * [2.3.3 Recon-ng](information-gathering/2.-passive-information-gathering/2.3-other-resources/2.3.3-recon-ng.md)
 * [3. Enumeration](information-gathering/4.-port-wise-service-enumeration.md)
 * [5. Fuzzing](information-gathering/3.2.1-fuzzing.md)
-* [6. Source Code Analysis](information-gathering/3.2.2-source-code-analysis.md)
+* [6. Source Code Analysis](information-gathering/3.2.2-source-code-analysis/README.md)
+  * [.exe Analysis](information-gathering/3.2.2-source-code-analysis/.exe-analysis.md)
 
 ## Vulnerability Assessment
 
