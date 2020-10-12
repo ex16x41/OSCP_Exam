@@ -7,6 +7,9 @@
 
 ## .kdbx keepass database
 
-* keepass2john 
-* hashcat -m 13400 hash.txt /usr/share/seclists/rockyou.txt
+* To get hash
+  * keepass2john 
+* To crack hash
+  * `hashcat -m 13400 hash.txt /usr/share/seclists/rockyou.txt` \(use this if you know the hashcat module\)
+  * `john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt`
 
