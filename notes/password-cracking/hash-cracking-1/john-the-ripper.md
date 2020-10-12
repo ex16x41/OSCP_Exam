@@ -2,7 +2,9 @@
 
 Given we have hash dump stored in `hashes.txt`
 
-![](../../../.gitbook/assets/image%20%2888%29.png)
+* `john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt`
+
+
 
 * John the ripper has pattern matching feature which could identify generic hashes only. Automatically.
 
