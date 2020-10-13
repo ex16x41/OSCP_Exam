@@ -39,6 +39,7 @@
 ## Initial Shell
 
 * [Command Execution](initial-shell/command-execution.md)
+* [After getting windows credentials](initial-shell/after-getting-windows-credentials.md)
 * [Reverse Shell](initial-shell/reverse-shell/README.md)
   * [msfvenom](initial-shell/reverse-shell/msfvenom/README.md)
     * [msfvenom Reverse Shells](initial-shell/reverse-shell/msfvenom/metasploit-reverse-shells.md)
