@@ -14,4 +14,6 @@
 
 1. [IKE VPN passsword PSK](https://takshil-patil529.gitbook.io/port-wise-enumeration/udp-enumerations/ipsec)
 2. .kdbx keepass database file
+3. cpassword decrypt in groups.xml. After decrypting password, the username is also present in Groups.xml file.
+   1. `gpp-decrypt cpassword_content`
 
