@@ -36,6 +36,14 @@
   * [Nikto](vulnerability-assessment/4.-vulnerability-assessment/nikto.md)
   * [OpenVAS](vulnerability-assessment/4.-vulnerability-assessment/openvas.md)
 
+## Security Defenses
+
+* [Handling Security Features](security-defenses/new-security-features/README.md)
+  * [Port Knocking](security-defenses/new-security-features/port-knocking.md)
+  * [Handling WAF](security-defenses/new-security-features/handling-waf.md)
+  * [AV Evasion](security-defenses/new-security-features/av-evasion/README.md)
+    * [Packer and Crypters](security-defenses/new-security-features/av-evasion/packer-and-crypters.md)
+
 ## Initial Shell
 
 * [Command Execution](initial-shell/command-execution.md)
@@ -105,14 +113,6 @@
   * [Shell Escape](privilege-escalation/linux-enumeration/shell-escape.md)
   * [commands](privilege-escalation/linux-enumeration/commands.md)
 * [Getting root](privilege-escalation/getting-root.md)
-
-## Security Defenses
-
-* [Handling Security Features](security-defenses/new-security-features/README.md)
-  * [Port Knocking](security-defenses/new-security-features/port-knocking.md)
-  * [Handling WAF](security-defenses/new-security-features/handling-waf.md)
-  * [AV Evasion](security-defenses/new-security-features/av-evasion/README.md)
-    * [Packer and Crypters](security-defenses/new-security-features/av-evasion/packer-and-crypters.md)
 
 ## Technical Notes
 
