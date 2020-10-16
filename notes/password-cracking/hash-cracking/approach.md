@@ -19,6 +19,21 @@
 5. Permute this list with year
    1. `for i in $(cat pass.txt); do echo $i; echo ${i}2019; echo ${i}2020; done`
 6. Add list of 100 most common passwords
+7. Add the below list
+
+
+
+* admin:admin, 
+* root:root, 
+* %username% ,
+* pass123, 
+* 123456, 
+* admin, 
+* letmein, 
+* admin@123, 
+* password, 
+* s3cret, 
+* 12345678900987654321
 
 
 
