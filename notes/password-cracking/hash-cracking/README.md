@@ -39,5 +39,5 @@ description: Given hash dump we need to crack password
 * s3cret, 
 * 12345678900987654321
 
-## Approach 2
+## [Approach 2 - Web Login Pages](https://app.gitbook.com/@oscp-2/s/oscp/exploits/brute-force-attacks/login-page-attacks#step-3-password-list)
 
