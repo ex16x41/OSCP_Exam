@@ -59,6 +59,7 @@
 ## Attack & Exploits <a id="exploits"></a>
 
 * [Brute Force Attacks](exploits/brute-force-attacks/README.md)
+  * [Login Page Attacks](exploits/brute-force-attacks/login-page-attacks.md)
   * [Online Password Cracking](exploits/brute-force-attacks/online-password-cracking/README.md)
     * [crackmapexec](exploits/brute-force-attacks/online-password-cracking/crackmapexec.md)
     * [Medusa](exploits/brute-force-attacks/online-password-cracking/medusa.md)
@@ -70,11 +71,10 @@
     * [Password list](exploits/brute-force-attacks/password-cracking/password-list/README.md)
       * [Crunch](exploits/brute-force-attacks/password-cracking/password-list/crunch.md)
       * [Password Profiling](exploits/brute-force-attacks/password-cracking/password-list/password-profiling.md)
-    * [Hash Cracking](exploits/brute-force-attacks/password-cracking/hash-cracking-1/README.md)
-      * [John the ripper](exploits/brute-force-attacks/password-cracking/hash-cracking-1/john-the-ripper.md)
-      * [Hashcat](exploits/brute-force-attacks/password-cracking/hash-cracking-1/untitled.md)
-    * [Passing the hash](exploits/brute-force-attacks/password-cracking/passing-the-hash.md)
-  * [Login Page Attacks](exploits/brute-force-attacks/login-page-attacks.md)
+  * [Hash Cracking](exploits/brute-force-attacks/hash-cracking/README.md)
+    * [Hashcat](exploits/brute-force-attacks/hash-cracking/untitled.md)
+    * [John the ripper](exploits/brute-force-attacks/hash-cracking/john-the-ripper.md)
+    * [Passing the hash](exploits/brute-force-attacks/hash-cracking/passing-the-hash.md)
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
   * [Database notes](exploits/7.3-sql-injection/database-notes.md)
   * [SQL Errors](exploits/7.3-sql-injection/sql-errors.md)
