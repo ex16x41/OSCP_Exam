@@ -17,3 +17,5 @@
 3. cpassword decrypt in groups.xml. After decrypting password, the username is also present in Groups.xml file.
    1. `gpp-decrypt cpassword_content`
 
+Point of vulnerability
+
