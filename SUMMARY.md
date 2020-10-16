@@ -89,7 +89,6 @@
   * [Wordpress Brute Forcing](notes/online-password-cracking/wordpress-brute-forcing.md)
 * [Password Cracking](notes/password-cracking/README.md)
   * [Password list](notes/password-cracking/hash-cracking/README.md)
-    * [Approach](notes/password-cracking/hash-cracking/approach.md)
     * [Crunch](notes/password-cracking/hash-cracking/crunch.md)
     * [Password Profiling](notes/password-cracking/hash-cracking/password-profiling.md)
   * [Hash Cracking](notes/password-cracking/hash-cracking-1/README.md)
