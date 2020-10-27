@@ -79,6 +79,7 @@
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
   * [SQL Enumeration](exploits/7.3-sql-injection/database-notes/README.md)
     * [SQL Errors](exploits/7.3-sql-injection/database-notes/sql-errors.md)
+  * [SQL Exploitation](exploits/7.3-sql-injection/sql-exploitation.md)
   * [SQLi Shell from scratch](exploits/7.3-sql-injection/sqli-shell.md)
 * [File Inclusion Vulnerabilities](exploits/7.2-file-inclusion-vulnerabilities/README.md)
   * [Use Cases](exploits/7.2-file-inclusion-vulnerabilities/use-cases.md)
