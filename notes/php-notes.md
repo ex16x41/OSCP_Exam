@@ -3,7 +3,7 @@
 * 
 ## PHP Known vulnerabilities
 
-* PHP Type Judging
+* 1\) PHP Type Judging
   * Versions vulnerable : 
   * Summary exploit
     * password\[\]=
@@ -11,7 +11,7 @@
 
 
 
-* PHP 5.5.9
+* 2\) PHP 5.5.9
   * php 5.5.9 and the idea of modifying the URL path to bypass authorization. It seems odd that this could be a thing that is possible but it worked.
     * original URL = admin.auth.inc.php
     * modified URL = admin.inc.php
