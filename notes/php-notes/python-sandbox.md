@@ -44,7 +44,8 @@ system('ls')
 ## Python builtins
 
 * In python version 2.7.18
-  * `__builtin__` is a module that stores all built in functions
+  * `__builtin__` is a module that stores all built in functions.
+  * Both `__builtin__` and `__builtins__` are exactly the same
   * You could print all built in functions using `dir(__builtin__)`
   * All functions except print will work normally, to execute print normally you need to first run `from __future__ import print_function`
 * Examples
@@ -59,5 +60,5 @@ system('ls')
 
 * Some more builtin
   * `__builtins__.__dict__['__import__']("os").system("ls")`
-  * `__import__('os').system('ls')`
+  * \`\`
 
