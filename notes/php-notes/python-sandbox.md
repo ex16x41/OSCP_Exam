@@ -43,4 +43,15 @@ system('ls')
 
 ## Python builtins
 
-* 
+* In python version 2.7.18
+  * `__builtin__` is a module that stores all built in functions
+  * You could print all built in functions using `dir(__builtin__)`
+  * All functions except print will work normally, to execute print normally you need to first run `from __future__ import print_function`
+* Examples
+  * `import __builtin__`
+  * `__builtin__.len("hello")`
+  * `__builtin__.range(1,20)`
+  * `__builtin__.print("hello")`
+  * `from __future__ import print_function`
+  * `__builtin__.print("hello")`
+
