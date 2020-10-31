@@ -15,3 +15,7 @@
 
 ![value not returned.](../../.gitbook/assets/image%20%28110%29.png)
 
+### 3\) exec\(\) function
+
+![This is syntax of python2](../../.gitbook/assets/image%20%28137%29.png)
+
