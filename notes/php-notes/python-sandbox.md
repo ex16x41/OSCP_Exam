@@ -55,3 +55,9 @@ system('ls')
   * `from __future__ import print_function`
   * `__builtin__.print("hello")`
 
+![](../../.gitbook/assets/image%20%28138%29.png)
+
+* Some more builtin
+  * `__builtins__.__dict__['__import__']("os").system("ls")`
+  * `__import__('os').system('ls')`
+
