@@ -20,3 +20,7 @@ print(data[0]["id"]
 
 ![](../../.gitbook/assets/image%20%28137%29.png)
 
+## python string and literals
+
+![](../../.gitbook/assets/image%20%28139%29.png)
+
