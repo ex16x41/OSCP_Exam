@@ -49,7 +49,15 @@ print(txt.format(price = 49))
 
 ## Generate byte code python3
 
-d
+```text
+class OctUTF8:
+  def __init__(self,s):
+      self.s = s.encode()
+  def __repr__(self):
+      return "b'" + ''.join(f'\\{n:03o}' for n in self.s) + "'"
+```
+
+![](../../.gitbook/assets/image%20%28143%29.png)
 
 ## Generate byte code python2
 
