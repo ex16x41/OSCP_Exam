@@ -24,3 +24,7 @@ print(data[0]["id"]
 
 ![](../../.gitbook/assets/image%20%28139%29.png)
 
+{% embed url="https://late.am/post/2012/03/26/exploring-python-code-objects.html" %}
+
+
+
