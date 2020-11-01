@@ -6,12 +6,25 @@ description: Includes python formatting
 
 ## Python formatting
 
+### Simple formatting
+
+```text
+txt = "For only {} dollars!"
+price=49
+print(txt.format(price))
+```
+
+* We intended simply to put value in the position, hence the .format\(\) will accept variable or value only
+
+### Precision formatting
+
 ```text
 txt = "For only {price:.2f} dollars!"
 print(txt.format(price = 49))
 ```
 
-* The .format **accepts only key value pairs**, it does not accept integer value or a variable
+* In string "txt" if we want to precision then we need to use the above formatting.
+* The .format\(\) **accepts only key value pairs**, it does not accept integer value or a variable
 
 ![](../../.gitbook/assets/image%20%28139%29.png)
 
