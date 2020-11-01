@@ -22,7 +22,7 @@ print(txt.format(price = 49))
 * There are 3 kinds of literals
   * String and Byte literal : `r'Simple'` and `b'Simple'`
   * String literal concat : `"hello" 'world'` == `"helloworld"`
-  * Formatted string literals : f'{n:03o}'
+  * Formatted string literals : `f'{n:03o}'`
 
 ![Formatted string literals](../../.gitbook/assets/image%20%28142%29.png)
 
