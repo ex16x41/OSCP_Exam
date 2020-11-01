@@ -26,5 +26,5 @@ print(data[0]["id"]
 
 {% embed url="https://late.am/post/2012/03/26/exploring-python-code-objects.html" %}
 
-
+[Imp : https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3](https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3)
 
