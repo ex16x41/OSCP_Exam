@@ -5,8 +5,15 @@
 ```text
 import json
 
+# Note that json is very picky of using of " or '
+# the overall must always be '
+# Error : "{'session': '12345'}"
+# Correct : '{"session": "12345"}'
+
+
 data = [{"id":1,"name":"2","position":"3","email":"a","src":"5"}]
 r = json.loads(data)
+print(data[0]["id"]
 ```
 
 ## exec\(\) function
