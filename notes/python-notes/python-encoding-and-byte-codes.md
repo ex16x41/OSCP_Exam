@@ -1,4 +1,4 @@
-# python encoding and byte codes
+# Python byte code and encodings
 
 ![](../../.gitbook/assets/image%20%28139%29.png)
 

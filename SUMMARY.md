@@ -96,7 +96,7 @@
   * [Python Automation 1](notes/python-notes/python-automation-2.md)
   * [Python Automation 2](notes/python-notes/untitled.md)
   * [Python cmd prompt](notes/python-notes/python-cmd-prompt.md)
-  * [python encoding and byte codes](notes/python-notes/python-encoding-and-byte-codes.md)
+  * [Python byte code and encodings](notes/python-notes/python-encoding-and-byte-codes.md)
   * [Python RE](notes/python-notes/regular-expression.md)
 * [PHP notes](notes/php-notes/README.md)
   * [Python Sandbox](notes/php-notes/python-sandbox.md)
