@@ -26,7 +26,7 @@ print(txt.format(price = 49))
 * In string "txt" if we want to precision then we need to use the above formatting.
 * The .format\(\) **accepts only key value pairs**, it does not accept integer value or a variable
 
-![](../../.gitbook/assets/image%20%28139%29.png)
+![Error example because .format\(\) accepts key:value pairs](../../.gitbook/assets/image%20%28139%29.png)
 
 
 
