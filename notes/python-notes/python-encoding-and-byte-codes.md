@@ -6,3 +6,11 @@
 
 [Imp : https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3](https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3)
 
+## Generate byte code python3
+
+d
+
+## Generate byte code python2
+
+d
+
