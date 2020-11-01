@@ -124,6 +124,8 @@
   * [Domain Privilege Escalation](technical-notes/technical-notes/domain-privilege-escalation.md)
   * [Windows File Permission](technical-notes/technical-notes/windows-enumeration.md)
   * [Password Management and Hashes](technical-notes/technical-notes/password-management-and-hashes.md)
+  * [Good To know facts](technical-notes/technical-notes/good-to-know-facts/README.md)
+    * [ASCII vs Unicode](technical-notes/technical-notes/good-to-know-facts/ascii-vs-unicode.md)
   * [3. Information Gathering \(Active\)](technical-notes/technical-notes/3.-information-gathering-active/README.md)
     * [3.1 Enumeration](technical-notes/technical-notes/3.-information-gathering-active/enumeration.md)
   * [3.1.3 Port Enumeration](technical-notes/technical-notes/3.1.2-port-enumeration/README.md)
