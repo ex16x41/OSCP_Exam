@@ -22,7 +22,7 @@ print(data[0]["id"]
 
 ## python string and literals
 
-![](../../.gitbook/assets/image%20%28139%29.png)
+![](../../.gitbook/assets/image%20%28140%29.png)
 
 {% embed url="https://late.am/post/2012/03/26/exploring-python-code-objects.html" %}
 
