@@ -17,7 +17,7 @@ def TestRequest(filename):
     print(r.text)
     
     # For post requests
-    # post_data = {  command seperated key value pairs }
+    # post_data = { 'session': value, 'text': value2 }
     data2 = s.post(url, data=post_data)
     
     

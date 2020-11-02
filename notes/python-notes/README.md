@@ -28,3 +28,13 @@ print(data[0]["id"]
 
 [Imp : https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3](https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3)
 
+## Execute another python file from a python script
+
+```text
+import subprocess
+
+proc = subprocess.Popen( 'python3 flask_session_cookie_manager3.py decode -s ' + SECRET_KEY + ' -c ' + fetched_session ,stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
+
+decoded_session = proc.communicate()[0]
+```
+
