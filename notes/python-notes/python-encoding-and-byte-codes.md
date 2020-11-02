@@ -9,9 +9,14 @@ description: Includes python formatting
 ### Simple formatting
 
 ```text
+# Python3
 txt = "For only {} dollars!"
 price=49
 print(txt.format(price))
+
+# Python2
+price=49
+print('For only {} dollars!' % price)
 ```
 
 * We intended simply to put value in the position, hence the .format\(\) will accept variable or value only
@@ -19,8 +24,14 @@ print(txt.format(price))
 ### Precision formatting
 
 ```text
+# Python3
 txt = "For only {price:.2f} dollars!"
 print(txt.format(price = 49))
+
+# Python2
+input1 = "Python"
+input2 = 2
+print '%(language)s has %(#)03d quote types.' % {'language': input1, "#": input2}
 ```
 
 * In string "txt" if we want to precision then we need to use the above formatting.
