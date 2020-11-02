@@ -14,6 +14,9 @@ txt = "For only {} dollars!"
 price=49
 print(txt.format(price))
 
+
+
+
 # Python2
 price=49
 print('For only {} dollars!' % price)
@@ -28,6 +31,8 @@ print('For only {} dollars!' % price)
 txt = "For only {pos:.2f} dollars!"
 price = 49
 print(txt.format(pos = price))
+
+
 
 # Python2
 input1 = "Python"
