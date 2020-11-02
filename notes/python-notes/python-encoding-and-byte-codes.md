@@ -16,7 +16,6 @@ print(txt.format(price))
 
 
 
-
 # Python2
 price=49
 print('For only {} dollars!' % price)
