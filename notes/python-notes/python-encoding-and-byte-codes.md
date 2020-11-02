@@ -127,7 +127,7 @@ class OctUTF8:
 
 ![](../../.gitbook/assets/image%20%28145%29.png)
 
-### Executing byte code
+### Executing byte code directly
 
 * You can always copy byte code directly in order to execute as shown below in python3.
 * For this we will only use `print("yes!! code executed")` as our command.
@@ -137,6 +137,9 @@ class OctUTF8:
 ![python2](../../.gitbook/assets/image%20%28149%29.png)
 
 * Now here I have manually converted `print("yes!! code executed")` to bytecode `\160\162\151\156\164\050\042\171\145\163\041\041\042\051`
+
+### Executing byte code automation
+
 * If you want to automate this directly, you will get error.
 
 {% tabs %}
@@ -183,11 +186,9 @@ exec(enc)
 {% endtab %}
 {% endtabs %}
 
-* The problem is that python string when defined add some bytes at the end of the string that are not accessible to edit, as these are required for python strings to work. We cannot print these unwanted bytes.
-* And because of this the byte code is now has come unwanted bytes at the end of the string, which is then passed to `exec()` hence failing the execution.
-* Solution is to line comment anything after the ending. Hence we simply have to change our `cmd` in order for `exec()` to run properly.
+* The problem is that python string when defined add some bytes at the end of the string that are not accessible to edit, as these are required for python strings to work. We cannot print these unwanted bytes or remove these bytes.
 
-d
+
 
 
 
