@@ -66,6 +66,8 @@ print '%(language)s has %(#)03d quote types.' % {'language': input1, "#": input2
 
 ## Generate byte code
 
+* We can only generate byte code using the below functions. But we cannot automate both bytecode generation and execution, becuase python string append some unwanted characters due to which 
+
 ```text
 # Python3
 class OctUTF8:
