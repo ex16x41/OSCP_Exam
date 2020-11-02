@@ -92,6 +92,7 @@
 ## Notes
 
 * [Python notes](notes/python-notes/README.md)
+  * [Bypass python sandbox](notes/python-notes/bypass-python-sandbox.md)
   * [Python Errors](notes/python-notes/python-errors.md)
   * [Python Automation 1](notes/python-notes/python-automation-2.md)
   * [Python Automation 2](notes/python-notes/untitled.md)
