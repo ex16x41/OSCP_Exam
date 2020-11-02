@@ -25,8 +25,9 @@ print('For only {} dollars!' % price)
 
 ```text
 # Python3
-txt = "For only {price:.2f} dollars!"
-print(txt.format(price = 49))
+txt = "For only {pos:.2f} dollars!"
+price = 49
+print(txt.format(pos = price))
 
 # Python2
 input1 = "Python"
