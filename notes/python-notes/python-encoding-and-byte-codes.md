@@ -49,6 +49,10 @@ print '%(language)s has %(#)03d quote types.' % {'language': input1, "#": input2
 
 ## Python Literals
 
+* Sequence of characters :   `éspanol`
+* Sequence of bytes : 
+* In Python 2, `str` is a sequence of bytes and `unicode` is a sequence of characters.
+*  In Python 3, this is changed; `bytes` is a sequence of bytes and `str` is a sequence of characters. And by default all string are in "UTF-8", hence _"str is sequence of character"_ makes sense.
 * There are 3 kinds of literals
   * String and Byte literal : `r'Simple'` and `b'Simple'`
   * String literal concat : `"hello" 'world'` == `"helloworld"`
