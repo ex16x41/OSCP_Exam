@@ -64,14 +64,26 @@ print '%(language)s has %(#)03d quote types.' % {'language': input1, "#": input2
 
 [Imp : https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3](https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3)
 
-## Generate byte code python3
+## Generate byte code
 
 ```text
+# Python3
 class OctUTF8:
   def __init__(self,s):
       self.s = s.encode()
   def __repr__(self):
       return "b'" + ''.join(f'\\{n:03o}' for n in self.s) + "'"
+ 
+ 
+ 
+ # Python2
+ def byte_code_octal(source):
+	encoded = ""
+	for character in source:
+		character = character.encode('utf8')
+		character = '%(#)03o' % {"#": ord(character)}
+		encoded = encoded + "\\" + character
+	return encoded
 ```
 
 ![](../../.gitbook/assets/image%20%28143%29.png)
