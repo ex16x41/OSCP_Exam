@@ -187,8 +187,12 @@ exec(enc)
 {% endtabs %}
 
 * The problem is that python string when defined add some bytes at the end of the string that are not accessible to edit, as these are required for python strings to work. We cannot print these unwanted bytes or remove these bytes.
+* So this ends here.
 
+### Alternatively, we could use byte code for special characters
 
+* We could evade sandbox and character filtering by encoding, characters filtered using byte code.
+* Below is python2 example.
 
 
 
