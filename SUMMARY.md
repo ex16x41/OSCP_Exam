@@ -92,13 +92,13 @@
 ## Notes
 
 * [Python notes](notes/python-notes/README.md)
-  * [Bypass python sandbox](notes/python-notes/bypass-python-sandbox.md)
   * [Python Errors](notes/python-notes/python-errors.md)
   * [Python Automation 1](notes/python-notes/python-automation-2.md)
   * [Python Automation 2](notes/python-notes/untitled.md)
   * [Python cmd prompt](notes/python-notes/python-cmd-prompt.md)
   * [Python byte code and encodings](notes/python-notes/python-encoding-and-byte-codes/README.md)
     * [Python byte code](notes/python-notes/python-encoding-and-byte-codes/python-byte-code.md)
+  * [Bypass python sandbox](notes/python-notes/bypass-python-sandbox.md)
   * [Python RE](notes/python-notes/regular-expression.md)
 * [PHP notes](notes/php-notes/README.md)
   * [Python Sandbox](notes/php-notes/python-sandbox.md)
