@@ -27,7 +27,7 @@ class to_ByteCode:
 		character = character.encode('utf8')
 		character = '%(#)03o' % {"#": ord(character)}
 		encoded = encoded + "\\" + character
-	return encoded
+	return "b'" + encoded + "'"
 ```
 {% endtab %}
 {% endtabs %}
