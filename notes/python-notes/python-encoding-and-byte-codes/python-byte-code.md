@@ -9,7 +9,7 @@
 ```text
 # Python3
 
-class OctUTF8:
+class ByteCode_octal:
   def __init__(self,s):
       self.s = s.encode()
   def __repr__(self):
@@ -21,7 +21,7 @@ class OctUTF8:
 ```text
  # Python2
  
- def byte_code_octal(source):
+ def ByteCode_octal(source):
 	encoded = ""
 	for character in source:
 		character = character.encode('utf8')
