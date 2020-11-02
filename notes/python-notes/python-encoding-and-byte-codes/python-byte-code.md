@@ -188,9 +188,3 @@ exec(cmd)
 {% endtab %}
 {% endtabs %}
 
-
-
-* B
-
-
-
