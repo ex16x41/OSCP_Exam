@@ -88,7 +88,7 @@ class OctUTF8:
 	return encoded
 ```
 
-![](../../.gitbook/assets/image%20%28143%29.png)
+![](../../.gitbook/assets/image%20%28145%29.png)
 
 ## Generate byte code python2
 
