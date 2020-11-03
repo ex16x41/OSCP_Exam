@@ -98,7 +98,7 @@
   * [Python cmd prompt](notes/python-notes/python-cmd-prompt.md)
   * [Python byte code and encodings](notes/python-notes/python-encoding-and-byte-codes/README.md)
     * [Python byte code](notes/python-notes/python-encoding-and-byte-codes/python-byte-code.md)
-  * [Python Sandbox](notes/python-notes/python-sandbox.md)
+  * [Bypass Python Sandbox](notes/python-notes/python-sandbox.md)
 * [PHP notes](notes/php-notes.md)
 * [File Transfer](notes/4.-file-transfer/README.md)
   * [Using HFS](notes/4.-file-transfer/4.1-using-hfs.md)
