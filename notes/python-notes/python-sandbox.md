@@ -147,6 +147,12 @@ size = __builtins__['len']('String len is 16')
 # import os; os.popen('ls').read()
 lfiles = __builtins__['__import__']('os').popen('ls').read()
 
+# python2 print current working directory os.getcwd()
+cdir = lfiles = __builtins__['__import__']('os').getcwd()
+
+# GUESS : Number of files in current directory
+if os.listdir(path).__len__()==n:time.sleep(20)
+
 
 ```
 
