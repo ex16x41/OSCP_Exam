@@ -167,5 +167,5 @@ for file_index in ndir:
 
 ```
 
-
+![Number of files in current working directory](../../.gitbook/assets/image%20%28154%29.png)
 
