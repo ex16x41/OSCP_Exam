@@ -28,6 +28,11 @@ print(data[0]["id"]
 
 [Imp : https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3](https://stackoverflow.com/questions/62648171/encode-string-as-octal-utf-8-python-3)
 
+## Python list comprehension
+
+* [https://docs.python.org/3/tutorial/datastructures.html\#list-comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+* `p = [q.index(v) if v in q else 99999 for v in vm]`
+
 ## Execute another python file from a python script
 
 ```text
