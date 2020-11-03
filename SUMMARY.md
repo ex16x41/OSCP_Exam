@@ -93,9 +93,9 @@
 
 * [Python notes](notes/python-notes/README.md)
   * [Python Errors](notes/python-notes/python-errors.md)
-  * [Python Automation 1](notes/python-notes/python-automation-2.md)
-  * [Python Automation 2](notes/python-notes/untitled.md)
-  * [Python cmd prompt](notes/python-notes/python-cmd-prompt.md)
+  * [Requests and sessions](notes/python-notes/requests-and-sessions/README.md)
+    * [Python Automation 2](notes/python-notes/requests-and-sessions/untitled.md)
+    * [Python Automation 1](notes/python-notes/requests-and-sessions/python-automation-2.md)
   * [Python byte code and encodings](notes/python-notes/python-encoding-and-byte-codes/README.md)
     * [Python byte code](notes/python-notes/python-encoding-and-byte-codes/python-byte-code.md)
   * [Bypass Python Sandbox](notes/python-notes/python-sandbox.md)
