@@ -32,6 +32,8 @@ print(data[0]["id"]
 
 * [https://docs.python.org/3/tutorial/datastructures.html\#list-comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
 * `p = [q.index(v) if v in q else 99999 for v in vm]`
+* Inline nested if
+  * [https://stackoverflow.com/questions/11880430/how-to-write-inline-if-statement-for-print](https://stackoverflow.com/questions/11880430/how-to-write-inline-if-statement-for-print)
 
 ## Execute another python file from a python script
 
