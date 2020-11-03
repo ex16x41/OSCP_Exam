@@ -92,6 +92,7 @@
 ## Notes
 
 * [Python notes](notes/python-notes/README.md)
+  * [Python Sandbox](notes/python-notes/python-sandbox.md)
   * [Python Errors](notes/python-notes/python-errors.md)
   * [Python Automation 1](notes/python-notes/python-automation-2.md)
   * [Python Automation 2](notes/python-notes/untitled.md)
@@ -100,8 +101,7 @@
     * [Python byte code](notes/python-notes/python-encoding-and-byte-codes/python-byte-code.md)
   * [Bypass python sandbox](notes/python-notes/bypass-python-sandbox.md)
   * [Python RE](notes/python-notes/regular-expression.md)
-* [PHP notes](notes/php-notes/README.md)
-  * [Python Sandbox](notes/php-notes/python-sandbox.md)
+* [PHP notes](notes/php-notes.md)
 * [File Transfer](notes/4.-file-transfer/README.md)
   * [Using HFS](notes/4.-file-transfer/4.1-using-hfs.md)
   * [Using SCP](notes/4.-file-transfer/4.2-using-scp.md)
