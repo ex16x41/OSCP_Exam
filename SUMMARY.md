@@ -99,7 +99,7 @@
   * [Python byte code and encodings](notes/python-notes/python-encoding-and-byte-codes/README.md)
     * [Python byte code](notes/python-notes/python-encoding-and-byte-codes/python-byte-code.md)
   * [Bypass Python Sandbox](notes/python-notes/python-sandbox/README.md)
-    * [Time Based Guessing](notes/python-notes/python-sandbox/time-based-guessing.md)
+    * [Time Based Guessing Attack](notes/python-notes/python-sandbox/time-based-guessing.md)
 * [PHP notes](notes/php-notes.md)
 * [File Transfer](notes/4.-file-transfer/README.md)
   * [Using HFS](notes/4.-file-transfer/4.1-using-hfs.md)
