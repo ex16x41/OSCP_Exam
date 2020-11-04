@@ -62,7 +62,7 @@ system('ls')
   * `__builtin__.print("hello")`
   * `__builtin__.__dict__['__import__']("os").system("ls")`
 
-![](../../.gitbook/assets/image%20%28138%29.png)
+![](../../../.gitbook/assets/image%20%28138%29.png)
 
 * Some more builtin
   * `__builtin__.__dict__['__import__']("os").system("ls")`
@@ -187,7 +187,7 @@ for file_index in range(0,ndir):                             # This will be on a
 
 ```
 
-![Number of files in current working directory](../../.gitbook/assets/image%20%28154%29.png)
+![Number of files in current working directory](../../../.gitbook/assets/image%20%28154%29.png)
 
 ```text
 # Get present working directory
