@@ -124,7 +124,7 @@ i={}\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbase\x5f\x5f\x2e\x5f\x5fsubclasses\x5f\
 
 ```
 
-## Restore builtins and execute OS command
+## Restore builtins and execute OS command \(no limit on characters\)
 
 ```text
 
