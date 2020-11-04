@@ -67,7 +67,7 @@ system('ls')
 * Some more builtin
   * `__builtin__.__dict__['__import__']("os").system("ls")`
 
-### If No builtin module : python2 present
+### If No builtin module in exec\(\)
 
 {% tabs %}
 {% tab title="Python2" %}
@@ -125,6 +125,8 @@ i={}\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbase\x5f\x5f\x2e\x5f\x5fsubclasses\x5f\
 ```
 
 ## Restore builtins and execute OS command \(no limit on characters\)
+
+* [https://github.com/nEcr0tik/htb/tree/master/mine-scripts/Python\_Sandbox/Python2](https://github.com/nEcr0tik/htb/tree/master/mine-scripts/Python_Sandbox/Python2)
 
 ```text
 
