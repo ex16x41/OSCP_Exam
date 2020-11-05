@@ -186,7 +186,7 @@ __builtin__.__dict__['__import__']("os").system("ls")
 * [https://github.com/se162xg/notes/issues/6](https://github.com/se162xg/notes/issues/6)
 * [https://www.python-course.eu/os\_module\_shell.php](https://www.python-course.eu/os_module_shell.php)
 * [https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes\#builtins](https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes#builtins)
-* more references
+* some more references
   * [https://gynvael.coldwind.pl/n/python\_sandbox\_escape](https://gynvael.coldwind.pl/n/python_sandbox_escape)
   * [https://blog.delroth.net/2013/03/escaping-a-python-sandbox-ndh-2013-quals-writeup/](https://blog.delroth.net/2013/03/escaping-a-python-sandbox-ndh-2013-quals-writeup/)
   * [https://ctf-wiki.github.io/ctf-wiki/pwn/linux/sandbox/python-sandbox-escape/](https://ctf-wiki.github.io/ctf-wiki/pwn/linux/sandbox/python-sandbox-escape/)
