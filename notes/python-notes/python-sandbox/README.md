@@ -290,7 +290,7 @@ Traceback (most recent call last):
 AttributeError: 'str' object has no attribute 'system'
 ```
 
-bypass it
+**bypass it**
 
 ```text
 sys.modules['os'] = 'not allowed' # 
