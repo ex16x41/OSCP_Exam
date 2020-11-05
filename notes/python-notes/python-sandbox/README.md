@@ -25,12 +25,57 @@ Nested_str = " This is string0 'string1 \" and string2 \' and string3 \' \" and 
 
 ```
 
+## Alternative.to
+
+* You can perform a task in multiple ways, below is a list of all different ways used to perform the same action.
+* Alternatives to python os module
+  * [https://www.python-course.eu/os\_module\_shell.php](https://www.python-course.eu/os_module_shell.php)
+* Alternatives to file read
+* Alternatives to importing libraries and execution
+
+```python
+### Alternatives to os module and execution #########################################
+os.system("ls")
+os.popen("ls").read()
+commands.getstatusoutput("ls") 
+commands.getoutput("ls")
+commands.getstatus("file/path")
+subprocess.call("ls", shell=True)
+subprocess.Popen("ls", shell=True)
+pty.spawn("ls")
+platform.popen("ls").read()
+
+
+
+### Alternatives to os file read/write #############################################
+open("/etc/passwd").read()
+open('/var/www/html/input', 'w').write('123')
+
+
+
+### Alternatives to importing libraries and execution ##############################
+# 1
+import os
+from os import *
+__import__('os').system("ls")
+
+# 2
+sys.modules["os"].system("ls")
+
+#3 - python2
+execfile('/usr/lib/python2.7/os.py')
+system('ls')
+
+
+
+```
+
 ## Defenses in a python sandbox
 
 1. Forbidden characters or input validation
 2. No builtins
    * `exec('cmd', {'__builtins__': None})`
-3. Restricted system modules 
+3. Restriction on importing libraries 
    * `sys.modules['os'] = 'not allowed'`
    * Skip execution if os shell modules are executed.
 
