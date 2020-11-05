@@ -123,7 +123,7 @@ cmd = '''''.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.f
   * Both `__builtin__` and `__builtins__` are exactly the same
   * You could print all built in functions using `dir(__builtin__)`
   * All functions except print will work normally, to execute print normally you need to first run `from __future__ import print_function`
-* Check how to call builtins
+* Check if a module is present in builtins
   * `'__import__' in dir(__builtins__)`
   * `'eval' in dir(__builtins_)`
   * `'execfile' in dir(__builtins__)`
