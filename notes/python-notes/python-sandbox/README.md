@@ -6,7 +6,7 @@ description: >-
 
 # Bypass Python Sandbox
 
-## string quotes
+## Understanding String Quotes
 
 ```text
 str = ''' This is a string'''
