@@ -80,7 +80,7 @@ cmd = '''''.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.f
 ## Defenses in a python sandbox
 
 1. Forbidden characters or input validation
-2. No builtins present
+2. No builtin present
    * `exec('cmd', {'__builtins__': None})`
 3. Restriction on importing libraries 
    * `sys.modules['os'] = 'not allowed'`
@@ -116,18 +116,44 @@ cmd = '''''.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.f
 
 ## 2. No builtins present
 
-### If Python builtins present
+### \_\_builtins\_\_ vs \_\_builtin\_\_
 
+* Information
+  * `In Python 2.7.17 and 3.8.5 : __builtins__` is a library which is imported automatically which serves for builtin functions that we use in python script like len\(\), range\(\) , etc.
+  * `In Python 2.7.17 : __builtin__`  is a library not imported automatically, when python code is executed, hence we need to manually import it inside python script in order to use it.
+  * Generally, we will focus on restoring `__builtins__` if it is not there. Becuase if `__builtins__` is not restored, then we cannot call import `__builtin__` to import builtin.
 * In python version 2.7.18
   * `__builtin__` is a module that stores all built in functions.
   * Both `__builtin__` and `__builtins__` are exactly the same
   * You could print all built in functions using `dir(__builtin__)`
   * All functions except print will work normally, to execute print normally you need to first run `from __future__ import print_function`
-* Check if a module is present in builtins
+
+{% tabs %}
+{% tab title="Python2" %}
+![](../../../.gitbook/assets/image%20%28156%29.png)
+{% endtab %}
+
+{% tab title="Python3" %}
+![](../../../.gitbook/assets/image%20%28157%29.png)
+{% endtab %}
+{% endtabs %}
+
+* Hence 
+  * `__builtins__` : is actually a library required for python execution, and we do not need to import it.
+  * `__builtin__` : is a python2 library that we can import in python session.
+* so if `exec("cmd", {'__builtins__': None})` means it has removed the required library and hence, now we cannot run any builtin functions like len\(\) or range\(\) , etc.
+
+
+
+* Check how to call \_\_builtins\_\_
+  * \_\_builtins\_\_.\_\_dict\_\_\['\_\_import\_\_'\]\('time'\).sleep\(20\)
+* Check how to call \_\_builtin\_\_
+  * import \_\_builtin\_\_
+  * \_\_builtins\_\_.\_\_dict\_\_\['\_\_import\_\_'\]\('time'\).sleep\(20\)
+* Check if a module is present in builtin
   * `'__import__' in dir(__builtins__)`
   * `'eval' in dir(__builtins_)`
   * `'execfile' in dir(__builtins__)`
-  * \`\`
 * Examples
   * `import __builtin__`
     * Loading \_\_builtin\_\_ module
