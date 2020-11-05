@@ -182,6 +182,11 @@ __builtin__.__dict__['__import__']("os").system("ls")
 
 ### Recovering \_\_builtins\_\_
 
+* [https://programmer.help/blogs/python-sandbox-escape.html](https://programmer.help/blogs/python-sandbox-escape.html)
+* [https://github.com/se162xg/notes/issues/6](https://github.com/se162xg/notes/issues/6)
+* [https://www.python-course.eu/os\_module\_shell.php](https://www.python-course.eu/os_module_shell.php)
+* [https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes\#builtins](https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes#builtins)
+
 {% tabs %}
 {% tab title="Python2" %}
 ```python
