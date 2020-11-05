@@ -178,10 +178,7 @@ __builtin__.print("hello") # Now print will work :-)
 __builtin__.__dict__['__import__']("os").system("ls")
 ```
 
-![](../../../.gitbook/assets/image%20%28138%29.png)
-
-* Some more builtin
-  * `__builtin__.__dict__['__import__']("os").system("ls")`
+![Print using \_\_builtin\_\_](../../../.gitbook/assets/image%20%28138%29.png)
 
 ### If No builtin module in exec\(\)
 
