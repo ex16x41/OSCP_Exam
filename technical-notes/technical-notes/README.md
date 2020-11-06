@@ -1,2 +1,2 @@
-# Technical Notes
+# Other Technical Notes
 

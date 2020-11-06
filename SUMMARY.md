@@ -120,9 +120,9 @@
   * [commands](privilege-escalation/linux-enumeration/commands.md)
 * [Getting root](privilege-escalation/getting-root.md)
 
-## Technical Notes
+## Resources <a id="technical-notes"></a>
 
-* [Technical Notes](technical-notes/technical-notes/README.md)
+* [Other Technical Notes](technical-notes/technical-notes/README.md)
   * [Domain Privilege Escalation](technical-notes/technical-notes/domain-privilege-escalation.md)
   * [Windows File Permission](technical-notes/technical-notes/windows-enumeration.md)
   * [Password Management and Hashes](technical-notes/technical-notes/password-management-and-hashes.md)
