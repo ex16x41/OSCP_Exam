@@ -77,6 +77,7 @@
     * [4.2 John the ripper](exploits/brute-force-attacks/hash-cracking/john-the-ripper.md)
     * [4.3 Passing the hash](exploits/brute-force-attacks/hash-cracking/passing-the-hash.md)
 * [SQL Injection](exploits/7.3-sql-injection/README.md)
+  * [Bypass File Upload](exploits/7.3-sql-injection/bypass-file-upload.md)
   * [SQLmap Exploitation](exploits/7.3-sql-injection/sqlmap-exploitation.md)
   * [SQLmap Enumeration](exploits/7.3-sql-injection/sqlmap-enumeration.md)
   * [Basics : SQL Enum](exploits/7.3-sql-injection/database-notes/README.md)
