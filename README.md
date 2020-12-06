@@ -1,6 +1,6 @@
 # My OSCP Notes
 
-## Always Verify Steps repeatedly
+## OSCP Guide
 
 These notes are only for education purpose.
 
