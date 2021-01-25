@@ -1,6 +1,6 @@
 # Reverse Shell
 
-## Reverse shell for respective technologies
+Reverse shell for respective technologies
 
 * PHP = php reverse shell
 * IIS Web server = aspx, asp
@@ -18,4 +18,8 @@
     * dir
     * ipconfig
 * Step 2: Execute reverse shell
+
+## Windows Reverse Shell
+
+gitbook spaces -&gt; [Windows\_OSCP](https://app.gitbook.com/@oscp-2/s/windows-oscp/windows-reverse-shell/2.-creating-reverse-shell-payload)
 
