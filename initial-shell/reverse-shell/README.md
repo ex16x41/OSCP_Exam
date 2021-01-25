@@ -1,8 +1,9 @@
 # Reverse Shell
 
-Reverse shell for respective technologies
+## Reverse shell for respective technologies
 
 * PHP = php reverse shell
+  * Different for windows and Linux machines. 
 * IIS Web server = aspx, asp
 
 ## Methodology
